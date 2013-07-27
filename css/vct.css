@@ -8,8 +8,7 @@ a { text-decoration:none }
 
 body { background-color: #ffffff }
 
-#background { width: 1358px; height: 1314px; 
-			  position:absolute; left:-679px; margin: auto 50%  }
+#background { width: 1358px; height: 1314px; position:absolute; left:-679px; margin: auto 50%  }
 
 #indexContent { width: 1358px ; height: 1314px; margin: auto 50%; left: -679px; position: absolute; background: url(../img/indexBackground.png ) no-repeat 0 0 }
 
@@ -28,7 +27,7 @@ body { background-color: #ffffff }
 
 /* Div Header */
 
-#header { width: 912px; height: 130px; padding-left: 190px; float:left }
+#header { width: 1168px; height: 130px; padding-left: 190px }
 	#header #logo { width: 161px; height: 130px; float: left }
 		#header #logo img { margin-left: 27px; margin-top: 34px }
 	#header #menu { width: 751px; height: 130px; float: left }
@@ -41,38 +40,38 @@ body { background-color: #ffffff }
 		#header #menu #menuContato { width: 156px; height: 25px; padding-left: 44px; padding-top: 105px; float: left }
 
 
-
-
-
-
-
 /* Div Middle  */
 
+#middle { width: 1166px; height: 864px; margin-left: 191px; position: relative }
+	
+	#middle #randomImage { width: 1166px; height: 350px; margin-top: 22px }
+	#middle #arrows { width: 1166px; height: 50px; position: absolute; top: 167px; z-index:999 }
+
+	#middle #bullets_canvas { width: 1166px; height: 18px }
+		#middle #bullets { margin-left: 426px; height: 10px; margin-top: 8px }
+			#middle .bullet { width: 15px; height: 12px; float: left; margin-right: 6px }
+			#middle .bullet_selected { background-color: #0098B6 }
+
+	#middle #middleContent { width: 1166px; height: 488px }
 
 
-#middle { width: 912px; height: 888px; margin-left: 195px; float: left }
-	#middle #randomImage { width: 915px; height: 350px; float: left }
-	#middle #media { width: 590px; height: 489px; float: left }
-		#middle #media #mediaTittle { width: 590px; height: 311px; float:left }
-		#middle #media #mediaTittle #mediaPhrase{ width: 221px; height: 69px; padding-left: 116px; padding-top: 249px; float:left }
-		#middle #media #playerTittle { width: 474px; height: 173px; padding-left: 116px; padding-top: 8px; float: left }
+	#middle #media { width: 590px; height: 488px; float: left }
+		#middle #media #mediaTittle { width: 590px; height: 311px }
+		#middle #media #mediaTittle #mediaPhrase{ width: 221px; height: 69px; padding-left: 116px; padding-top: 249px }
+		#middle #media #playerTittle { width: 474px; height: 173px; padding-left: 116px; padding-top: 8px }
 	
 
-	#middle #budgetBox { width: 322px; height: 489px; float:right }
-		#middle #budgetBox #budgetBoxTittle { width: 281px; height: 30px; padding-left: 41px; padding-top: 44px;}
-		#middle #budgetBox #budgetTittle { width: 322px; height: 415px }
-			#middle #budgetBox #budgetTittle #budgetBoxPhrase02 { width: 281px; height: 11px; padding-top: 17px; padding-left: 41px }
+	#middle #budgetBox { width: 322px; height: 468px; float:left; padding-top:20px }
+		#middle #budgetBox #budgetBoxTittle { width: 281px; height: 34px; padding-left: 41px; padding-top: 20px }
+		#middle #budgetBox #budgetTittle { width: 322px; height: 394px }
+			#middle #budgetBox #budgetTittle #budgetBoxPhrase02 { width: 281px; height: 11px; padding-top: 14px; padding-left: 41px }
 
 
 
 /* Div Footer  */
 
-#footer { width: 912px; height: 296px; margin-left: 195px; float: left }
-	#footer #footerTittle { width: 632px; height: 12px; padding-left: 280px; padding-top: 32px; float: left }
-
-
-
-	
+#footer { width: 1162px; height: 296px; margin-left: 195px }
+	#footer #footerTittle { width: 632px; height: 12px; padding-left: 280px; padding-top: 32px }
 
 
 /* Fonts */   
