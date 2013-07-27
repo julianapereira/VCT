@@ -8,30 +8,18 @@ a { text-decoration:none }
 
 body { background-color: #ffffff }
 
-#background { width: 1358px; height: 1314px; 
-			  position:absolute; left:-679px; margin: auto 50%  }
-
-
+#background { width: 1358px; height: 1314px; position:absolute; left:-679px; margin: auto 50%  }
 
 #serviceContent { width: 1358px ; height: 1314px; margin: auto 50%; left: -679px; position: absolute; background: url(../img/serviceBackground.png ) no-repeat 0 0 }
-
 #enterpriseContent { width: 1358px ; height: 1314px; margin: auto 50%; left: -679px; position: absolute; background: url(../img/enterpriseBackground.png ) no-repeat 0 0 }
-
 #securityContent { width: 1358px ; height: 1314px; margin: auto 50%; left: -679px; position: absolute; background: url(../img/securityBackground.png ) no-repeat 0 0 }
-
 #budgetContent { width: 1358px ; height: 1314px; margin: auto 50%; left: -679px; position: absolute; background: url(../img/budgetBackground.png ) no-repeat 0 0 }
-
 #contactContent { width: 1358px ; height: 1314px; margin: auto 50%; left: -679px; position: absolute; background: url(../img/contactBackground.png ) no-repeat 0 0 }
-
-
-
-
-
 
 
 /* Div Header */
 
-#header { width: 912px; height: 130px; padding-left: 190px; float:left }
+#header { width: 1168px; height: 130px; padding-left: 190px }
 	#header #logo { width: 161px; height: 130px; float: left }
 		#header #logo img { margin-left: 27px; margin-top: 34px }
 	#header #menu { width: 751px; height: 130px; float: left }
@@ -43,20 +31,10 @@ body { background-color: #ffffff }
 		#header #menu #menuOrcamento { width: 74px; height: 25px;  padding-left: 40px; padding-top: 105px; float: left }
 		#header #menu #menuContato { width: 156px; height: 25px; padding-left: 44px; padding-top: 105px; float: left }
 
-
-
-
-
-
 /* Div Footer  */
 
-#footer { width: 912px; height: 296px; margin-left: 195px; float: left }
-	#footer #footerTittle { width: 632px; height: 12px; padding-left: 280px; padding-top: 32px; float: left }
-
-
-
-	
-
+#footer { width: 1162px; height: 296px; margin-left: 195px }
+	#footer #footerTittle { width: 632px; height: 12px; padding-left: 280px; padding-top: 32px }
 
 /* Fonts */   
 

@@ -1,3 +1,4 @@
+
 /**
  * Javascript da tela inicial
  */
@@ -9,7 +10,7 @@ var Index = {
 	 * @returns {undefined}
 	 */		
 	init : function() {
-		
+		Index.bind.elements();
 	},
     
 	/**
@@ -22,7 +23,9 @@ var Index = {
     	 */
         elements: function() {
         	
-        	$('#randomImage').cycle()
+        	$('#banner').cycle({
+        		 before: Index.action.onBefore
+        	});
 
         }
         
@@ -35,10 +38,27 @@ var Index = {
 	 */      
     action: {
     	
-    	
+    	onBefore: function(){
+
+    		var elem = $(".bullet_selected")[0];
+
+    		if(elem == undefined){
+
+    			$($("#bullets").children()[0]).addClass("bullet_selected");
+
+    		}else{
+
+	    		$(elem).removeClass("bullet_selected");
+	    		if($(elem).next().length == true){
+	    			$(elem).next().addClass("bullet_selected");
+	    		}else{
+	    			$($(elem).parent().children()[0]).addClass("bullet_selected");
+	    		}
+
+    		}
+
+    	}
     
     }
 };
 
-//Inicializando o javascript da tela.
-$(Index.init);
