@@ -1,0 +1,88 @@
+/*  index.css  */
+
+
+/* Page's  structure */
+
+* { margin:0; padding:0 }
+a { text-decoration:none }
+
+body { background-color: #ffffff }
+
+#background { width: 1358px; height: 1314px; 
+			  position:absolute; left:-679px; margin: auto 50%  }
+
+#indexContent { width: 1358px ; height: 1314px; margin: auto 50%; left: -679px; position: absolute; background: url(../img/indexBackground.png ) no-repeat 0 0; }
+
+#productContent { width: 1358px ; height: 1314px; margin: auto 50%; left: -679px; position: absolute; background: url(../img/productBackground.png ) no-repeat 0 0; }
+
+#serviceContent { width: 1358px ; height: 1314px; margin: auto 50%; left: -679px; position: absolute; background: url(../img/serviceBackground.png ) no-repeat 0 0; }
+
+#enterpriseContent { width: 1358px ; height: 1314px; margin: auto 50%; left: -679px; position: absolute; background: url(../img/enterpriseBackground.png ) no-repeat 0 0; }
+
+#securityContent { width: 1358px ; height: 1314px; margin: auto 50%; left: -679px; position: absolute; background: url(../img/securityBackground.png ) no-repeat 0 0; }
+
+#budgetContent { width: 1358px ; height: 1314px; margin: auto 50%; left: -679px; position: absolute; background: url(../img/budgetBackground.png ) no-repeat 0 0; }
+
+#contactContent { width: 1358px ; height: 1314px; margin: auto 50%; left: -679px; position: absolute; background: url(../img/contactBackground.png ) no-repeat 0 0; }
+
+
+/* Div Header */
+
+#header { width: 912px; height: 130px; padding-left: 190px; float:left; }
+	#header #logo { width: 161px; height: 130px; float: left; }
+		#header #logo img { margin-left: 27px; margin-top: 34px; }
+	#header #menu { width: 751px; height: 130px; float: left; }
+		#menu a { font-family: Signika, sans-serif; font-weight: normal; font-size: 12px; color: #666666 }
+		#header #menu #menuProduto { width: 59px; height: 25px; padding-left: 78px; padding-top: 105px; float: left; }			
+		#header #menu #menuServico { width: 54px; height: 25px; padding-left: 44px; padding-top: 105px; float: left; }
+		#header #menu #menuEmpresa { width: 51px; height: 25px; padding-left: 40px; padding-top: 105px; float: left; }
+		#header #menu #menuSeguranca { width: 67px; height: 25px; padding-left: 44px; padding-top: 105px; float: left; }
+		#header #menu #menuOrcamento { width: 74px; height: 25px;  padding-left: 40px; padding-top: 105px; float: left; }
+		#header #menu #menuContato { width: 156px; height: 25px; padding-left: 44px; padding-top: 105px; float: left; }
+
+
+
+
+
+
+
+/* Div Middle  */
+
+
+
+#middle { width: 912px; height: 888px; margin-left: 195px; float: left; }
+	#middle #randomImage { width: 912px; height: 399px; float: left; background-color: gray; }
+	#middle #media { width: 590px; height: 489px; float: left; }
+		#middle #media #mediaTittle { width: 590px; height: 311px; float:left; }
+		#middle #media #mediaTittle #mediaPhrase{ width: 221px; height: 69px; padding-left: 116px; padding-top: 249px; float:left; }
+		#middle #media #playerTittle { width: 474px; height: 173px; padding-left: 116px; padding-top: 8px; float: left; }
+	
+
+	#middle #budgetBox { width: 322px; height: 489px; float:right; }
+		#middle #budgetBox #budgetBoxTittle { width: 281px; height: 30px; padding-left: 41px; padding-top: 44px;}
+		#middle #budgetBox #budgetTittle { width: 322px; height: 415px }
+			#middle #budgetBox #budgetTittle #budgetBoxPhrase02 { width: 281px; height: 11px; padding-top: 17px; padding-left: 41px }
+
+
+
+/* Div Footer  */
+
+#footer { width: 912px; height: 296px; margin-left: 195px; float: left; }
+	#footer #footerTittle { width: 632px; height: 12px; padding-left: 280px; padding-top: 32px; float: left; }
+
+
+
+	
+
+
+/* Fonts */   
+
+.signika_12_normal_gray {font-family: Signika, sans-serif; font-weight: normal; font-size: 12px; color: #666666 }
+.signika_13_lighter_white {font-family: Signika, sans-serif; font-weight: lighter; font-size: 13px; color: #ffffff }
+.signika_13_lighter_blue {font-family: Signika, sans-serif; font-weight: lighter; font-size: 13px; color: #1046d6 }
+.signika_1365_lighter_blue {font-family: Signika, sans-serif; font-weight: lighter; font-size: 13.65px; color: #0073ef }
+.signika_1365_lighter_white {font-family: Signika, sans-serif; font-weight: lighter; font-size: 13.65px; color: #ffffff}
+
+.helvetica_11_lighter_blue {font-family: Helvetica, Arial, sans-serif; font-weight: lighter; font-size: 11.65px; color: #0073ef;}
+
+
