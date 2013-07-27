@@ -16,11 +16,26 @@
 
 	#middle #media { width: 590px; height: 488px; float: left }
 		#middle #media #mediaTittle { width: 590px; height: 311px }
-		#middle #media #mediaTittle #mediaPhrase{ width: 221px; height: 69px; padding-left: 116px; padding-top: 249px }
+
+		#middle #media #mediaTittle #mediaPhrase{ 
+				width: 221px; height: 69px; padding-left: 116px; padding-top: 249px;
+				font-family: Signika, sans-serif; font-weight: lighter; font-size: 13px; color: #ffffff
+		}
+
 		#middle #media #playerTittle { width: 474px; height: 173px; padding-left: 116px; padding-top: 8px }
+			#middle #media #playerTittle a { font-family: Signika, sans-serif; font-weight: lighter; font-size: 13px; color: #1046d6 }
 	
 
 	#middle #budgetBox { width: 322px; height: 468px; float:left; padding-top:20px }
-		#middle #budgetBox #budgetBoxTittle { width: 281px; height: 34px; padding-left: 41px; padding-top: 20px }
+		
+		#middle #budgetBox #budgetBoxTittle { 
+				width: 281px; height: 34px; padding-left: 41px; padding-top: 20px;
+				font-family: Signika, sans-serif; font-weight: lighter; font-size: 13.65px; color: #0073ef 
+		}
+		
 		#middle #budgetBox #budgetTittle { width: 322px; height: 394px }
-			#middle #budgetBox #budgetTittle #budgetBoxPhrase02 { width: 281px; height: 11px; padding-top: 14px; padding-left: 41px }
+
+			#middle #budgetBox #budgetTittle #budgetBoxPhrase02 { 
+				width: 281px; height: 11px; padding-top: 14px; padding-left: 41px;
+				font-family: Signika, sans-serif; font-weight: lighter; font-size: 13.65px; color: #ffffff
+			}

@@ -34,16 +34,10 @@ body { background-color: #ffffff }
 /* Div Footer  */
 
 #footer { width: 1162px; height: 296px; margin-left: 195px }
-	#footer #footerTittle { width: 632px; height: 12px; padding-left: 280px; padding-top: 32px }
-
-/* Fonts */   
-
-.signika_12_normal_gray {font-family: Signika, sans-serif; font-weight: normal; font-size: 12px; color: #666666 }
-.signika_13_lighter_white {font-family: Signika, sans-serif; font-weight: lighter; font-size: 13px; color: #ffffff }
-.signika_13_lighter_blue {font-family: Signika, sans-serif; font-weight: lighter; font-size: 13px; color: #1046d6 }
-.signika_1365_lighter_blue {font-family: Signika, sans-serif; font-weight: lighter; font-size: 13.65px; color: #0073ef }
-.signika_1365_lighter_white {font-family: Signika, sans-serif; font-weight: lighter; font-size: 13.65px; color: #ffffff }
-
-.helvetica_11_lighter_blue {font-family: Helvetica, Arial, sans-serif; font-weight: lighter; font-size: 11.65px; color: #0073ef }
+	
+	#footer #footerTittle { 
+		width: 632px; height: 12px; padding-left: 280px; padding-top: 32px;
+		font-family: Helvetica, Arial, sans-serif; font-weight: lighter; font-size: 11.65px; color: #0073ef
+	}
 
 
