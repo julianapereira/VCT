@@ -1,0 +1,26 @@
+/* Div Middle  */
+
+#indexContent { width: 1358px ; height: 1314px; margin: auto 50%; left: -679px; position: absolute; background: url(../img/indexBackground.png ) no-repeat 0 0 }
+
+#middle { width: 1166px; height: 864px; margin-left: 191px; position: relative }
+	
+	#middle #randomImage { width: 1166px; height: 350px; margin-top: 22px }
+	#middle #arrows { width: 1166px; height: 50px; position: absolute; top: 167px; z-index:999 }
+
+	#middle #bullets_canvas { width: 1166px; height: 18px }
+		#middle #bullets { margin-left: 426px; height: 10px; margin-top: 8px }
+			#middle .bullet { width: 15px; height: 12px; float: left; margin-right: 6px }
+			#middle .bullet_selected { background-color: #0098B6 }
+
+	#middle #middleContent { width: 1166px; height: 488px }
+
+	#middle #media { width: 590px; height: 488px; float: left }
+		#middle #media #mediaTittle { width: 590px; height: 311px }
+		#middle #media #mediaTittle #mediaPhrase{ width: 221px; height: 69px; padding-left: 116px; padding-top: 249px }
+		#middle #media #playerTittle { width: 474px; height: 173px; padding-left: 116px; padding-top: 8px }
+	
+
+	#middle #budgetBox { width: 322px; height: 468px; float:left; padding-top:20px }
+		#middle #budgetBox #budgetBoxTittle { width: 281px; height: 34px; padding-left: 41px; padding-top: 20px }
+		#middle #budgetBox #budgetTittle { width: 322px; height: 394px }
+			#middle #budgetBox #budgetTittle #budgetBoxPhrase02 { width: 281px; height: 11px; padding-top: 14px; padding-left: 41px }
