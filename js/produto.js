@@ -43,6 +43,9 @@ var Produto = {
         */
         select: function(menuElement){
             
+            $('.menu_container').removeClass("selected");
+            $(menuElement).addClass("selected");
+
             $('.container').hide();
             var container = $(menuElement).data("container");
             $(container).show();
