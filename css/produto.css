@@ -12,16 +12,26 @@
 		#middle #card #cardMenu { width: 189px; height: 608px; margin-left: 199px }
 			#middle #card #cardMenu #cardTittle { width: 155px; height: 88px; padding-left: 23px; padding-top: 56px; letter-spacing: 1px;
 												font-family: Signika, sans-serif; font-weight: bold; font-size: 16px; color: #ffffff  }
-			#middle #card #cardMenu #giftCard { width: 189px; height: 68px; background-color: black }
-			#middle #card #cardMenu #smartCard { width: 189px; height: 90px; background-color: navy }
-			#middle #card #cardMenu #corporateCard { width: 189px; height: 41px; background-color: maroon }
-			#middle #card #cardMenu #credentialCard { width: 189px; height: 39px; background-color: green }
-			#middle #card #cardMenu #fidelityCard { width: 189px; height: 39px; background-color: yellow }
-			#middle #card #cardMenu #preCard { width: 189px; height: 41px; background-color: olive }
-			#middle #card #cardMenu #specialCard { width: 189px; height: 59px; background-color: pink }
-			#middle #card #cardMenu #gsmCard  { width: 189px; height: 41px; background-color: violet }
-			#middle #card #cardMenu #paperCard { width: 189px; height: 41px; background-color: purple }
-			#middle #card #cardMenu #aquaticCard { width: 189px; height: 36px; background-color: darkblue }
+			#middle #card #cardMenu #giftCard { width: 104px; height: 68px; padding-left: 23px; 
+												font-family: Signika, sans-serif; font-weight: lighter; font-size: 13.65px; color: #ffffff }
+			#middle #card #cardMenu #smartCard { width: 153px; height: 90px; padding-left: 23px; 
+												font-family: Signika, sans-serif; font-weight: lighter; font-size: 13.65px; color: #ffffff }
+			#middle #card #cardMenu #corporateCard { width: 160px; height: 41px; padding-left: 23px;  
+													font-family: Signika, sans-serif; font-weight: lighter; font-size: 13.65px; color: #ffffff }
+			#middle #card #cardMenu #credentialCard { width: 159px; height: 39px; padding-left: 23px;
+													font-family: Signika, sans-serif; font-weight: lighter; font-size: 13.65px; color: #ffffff }
+			#middle #card #cardMenu #fidelityCard { width: 157px; height: 39px; padding-left: 23px; 
+													font-family: Signika, sans-serif; font-weight: lighter; font-size: 13.65px; color: #ffffff }
+			#middle #card #cardMenu #preCard { width: 159px; height: 41px; padding-left: 23px; 
+												font-family: Signika, sans-serif; font-weight: lighter; font-size: 13.65px; color: #ffffff }
+			#middle #card #cardMenu #specialCard { width: 157px; height: 59px; padding-left: 23px; 
+				 									font-family: Signika, sans-serif; font-weight: lighter; font-size: 13.65px; color: #ffffff }
+			#middle #card #cardMenu #gsmCard  { width: 160px; height: 41px; padding-left: 23px; 
+												font-family: Signika, sans-serif; font-weight: lighter; font-size: 13.65px; color: #ffffff }
+			#middle #card #cardMenu #paperCard { width: 159px; height: 41px; padding-left: 23px; 
+												font-family: Signika, sans-serif; font-weight: lighter; font-size: 13.65px; color: #ffffff }
+			#middle #card #cardMenu #aquaticCard { width: 157px; height: 36px; padding-left: 23px; 
+													font-family: Signika, sans-serif; font-weight: lighter; font-size: 13.65px; color: #ffffff }
 
 	#middle #cardImage { width: 972px; height: 884px; float: left; background-color: yellow }
 		#middle #cardImage #boxCardImage { width: 608px; height: 521px; margin-left: 64px; margin-top: 89px; background-color: purple }
