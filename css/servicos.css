@@ -8,7 +8,8 @@
 #middle { width: 1358px; height: 864px; position: relative }
 
 	#middle #bureau { width: 254px; height: 652px; margin-left: 186px; margin-top: 64px; float: left; }
-		#middle #bureau #bureauTittle { width: 254px; height: 20px; background-color: maroon }
+		#middle #bureau #bureauTittle { width: 213px; height: 20px; padding-left: 41px; 
+		 								font-family: Signika, sans-serif; font-weight: bold; font-size: 16px; color: #ffffff }
 		#middle #bureau #bureauText { width: 254px; height: 107px; background-color: pink }
 		#middle #bureau #bureau01 { width: 254px; height: 85px; background-color: purple }
 		#middle #bureau #bureau02 { width: 254px; height: 50px; background-color: gray }
