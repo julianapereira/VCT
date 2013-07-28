@@ -6,3 +6,11 @@
 /*  Middle  */
 
 #middle { width: 1358px; height: 864px; position: relative }
+
+	#middle #bureau { width: 254px; height: 652px; margin-left: 186px; margin-top: 64px; float: left; background-color: beige }
+
+	#middle #bureauMedia { width: 697px; height: 609px; margin-top: 64px;  float:left;background-color: navy }
+
+	#middle #bureauBox { width: 697px; height: 107px; float:left; background-color: purple }
+
+
