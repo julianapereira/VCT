@@ -30,20 +30,6 @@ var Orcamento = {
         }
         
     },
-
-    /**
-    * Todas as chamadas ajax.
-    */
-    ajax: {
-
-        /**
-        * Utilizado para enviar um email.
-        */
-        sendMail: function(){
-
-        }
-
-    },
     
 	/**
 	 * Todos os métodos utilizados na tela ou vinculados via bind.
@@ -57,18 +43,46 @@ var Orcamento = {
         */
         formSubmit: function(){
             
-            var empresa = $("#empresa");
-            var contato = $("#contato");
-            var telefone = $("#telefone");
-            var email = $("#email");
-
-            if( empresa.val() && contato.val() && telefone.val && email.val() ){
-                $(".container_message_error").show();
+            if( $("#empresa").val() && $("#contato").val() && $("#telefone").val() && $("#email").val() ){
+                Orcamento.action.showFormMessage("Favor preencher <br> os campos obrigatórios.");
                 return;
             }    
 
-            $(".container_message_success").show();
-            Orcamento.ajax.sendMail();
+            VCT.ajax.sendMail( $("#email").val(), "Orçamento", Orcamento.action.createEmailMessage() );
+
+        }, 
+
+        /**
+        * Utilizado para mostrar a mensagem do formulário.
+        */
+        showFormMessage: function(message){
+            $(".container_message").html(message));
+            $(".container_message").show();
+        },
+
+        /**
+        * Utilizado para contruir a mensagem de email.
+        */
+        createEmailMessage: function(){
+
+            var emailHtmlMessage = "<h3>Orçamento</h3><br>";
+            var emailHtmlMessage += "Empresa: " + $("#empresa").val() + "<br>";
+            var emailHtmlMessage += "Contato: " + $("#contato").val() + "<br>";
+            var emailHtmlMessage += "Telefone: " + $("#telefone") + "<br>";
+            var emailHtmlMessage += "Email: " + $("#email").val() + "<br>";
+            var emailHtmlMessage += "Quantidade: " + $("#quantidade").val() + "<br>";
+            var emailHtmlMessage += "Espessura: " + $("#espessura").val() + "<br>";
+            var emailHtmlMessage += "Número de Cores: " + $("#numeroCores").val() + "<br>";
+            var emailHtmlMessage += "Tarja Magnética: " + $("#tarjaMagnetica").val() + "<br>";
+            var emailHtmlMessage += "Coercividade: " + $("#coercividade").val() + "<br>";
+            var emailHtmlMessage += "Painel de Assinatura: " + $("#painelAssinatura").val() + "<br>";
+            var emailHtmlMessage += "Etiqueta Raspadinha: " + $("#etiquetaRaspadinha").val() + "<br>";
+            var emailHtmlMessage += "Personalização: " + $("#personalizacao").val() + "<br>";
+            var emailHtmlMessage += "Quatidade de Linhas de Personalização: " + $("#qtdLinhasPersonalizacao").val() + "<br>";
+            var emailHtmlMessage += "Cor da Personalização: " + $("#corPersonalizacao").val() + "<br>";
+            var emailHtmlMessage += "Observações: " +  $("#observacoes").val() + "<br>";
+
+            return emailHtmlMessage;
 
         }
     
