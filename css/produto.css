@@ -9,6 +9,7 @@
 #middle { width: 1358px; height: 864px; position: relative; background-color: beige }
 
 	#middle #card { width: 386px; height: 884px;  float: left; background-color: red }
+		#middle #card #cardMenu { width: 189px; height: 608px; margin-left: 199px; background-color: orange }
 
 	#middle #cardImage { width: 972px; height: 884px; float: left; background-color: yellow }
 		#middle #cardImage #boxCardImage { width: 608px; height: 521px; margin-left: 64px; margin-top: 89px; background-color: purple }
