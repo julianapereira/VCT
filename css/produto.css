@@ -4,7 +4,11 @@
 #productContent { width: 1358px ; height: 1314px; margin: auto 50%; left: -679px; position: absolute; background: url(../img/productBackground.png ) no-repeat 0 0 }
 
 
-
-
-
 /*  Middle  */
+
+#middle { width: 1358px; height: 864px; position: relative; background-color: beige }
+
+	#middle #card { width: 386px; height: 884px;  float: left; background-color: red }
+
+	#middle #cardImage { width: 972px; height: 884px; float: left; background-color: yellow }
+		#middle #cardImage #boxCardImage { width: 608px; height: 521px; margin-left: 64px; margin-top: 89px; background-color: purple }
