@@ -8,6 +8,7 @@
 
 * { margin:0; padding:0 }
 a { text-decoration:none }
+img { border: none }
 
 body { background-color: #ffffff }
 
@@ -36,10 +37,10 @@ body { background-color: #ffffff }
 
 /* Div Footer  */
 
-#footer { width: 1162px; height: 296px; margin-left: 195px; padding-top: 32px }
+#footer { width: 1162px; height: 296px; margin-left: 207px; padding-top: 54px }
 	
 	#footer #footerTittle { 
-		width: 520px; height: 12px; padding-left: 268px; float:left;
+		width: 516px; height: 12px; padding-left: 268px; float:left;
 		font-family: Helvetica, Arial, sans-serif; font-weight: lighter; font-size: 11.65px; color: #0073ef
 	}
 
