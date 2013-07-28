@@ -2,7 +2,7 @@
 /**
  * Javascript da tela inicial
  */
-var Index = {
+var Produto = {
     
 	/**
 	 * Construtor default.
@@ -10,7 +10,7 @@ var Index = {
 	 * @returns {undefined}
 	 */		
 	init : function() {
-		Index.bind.elements();
+		Produto.bind.elements();
 	},
     
 	/**
@@ -23,11 +23,9 @@ var Index = {
     	 */
         elements: function() {
         	
-        	$('#banner').cycle({
-        		prev: '#prev', 
-    			next: '#next',
-    			before: Index.action.onBefore
-        	});
+            $('.menu_container').click(function() {
+                Produto.action.select(this);
+            });
 
         }
         
@@ -40,11 +38,18 @@ var Index = {
 	 */      
     action: {
 
-    	onBefore: function(){
-    		$('.bullet_selected').removeClass("bullet_selected");
-    		$(this.alt).addClass("bullet_selected");
-    	}
+        /**
+        * Mostrar o container do menu selecionado.
+        */
+        select: function(menuElement){
+            
+            $('.container').hide();
+            var container = $(menuElement).data("container");
+            $(container).show();
+
+        }
     
     }
 };
 
+$(Produto.init);
