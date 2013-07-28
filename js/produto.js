@@ -23,7 +23,7 @@ var Produto = {
     	 */
         elements: function() {
         	
-            $('.menu_container').click(function() {
+            $('.item').click(function() {
                 Produto.action.select(this);
             });
 
@@ -43,8 +43,8 @@ var Produto = {
         */
         select: function(menuElement){
             
-            $('.menu_container').removeClass("selected");
-            $(menuElement).addClass("selected");
+            $('.item').removeClass("itemSelected");
+            $(menuElement).addClass("itemSelected");
 
             $('.container').hide();
             var container = $(menuElement).data("container");
