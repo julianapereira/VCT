@@ -1,41 +1,41 @@
 
 /**
- * Javascript da tela de produto
+ * Javascript da tela de servico
  */
-var Produto = {
+var Servico = {
     
-	/**
-	 * Construtor default.
-	 * 
-	 * @returns {undefined}
-	 */		
-	init : function() {
-		Produto.bind.elements();
-	},
+    /**
+     * Construtor default.
+     * 
+     * @returns {undefined}
+     */     
+    init : function() {
+        Servico.bind.elements();
+    },
     
-	/**
-	 * Utilizado para criar o bind das ações nos elementos da tela.
-	 */    
+    /**
+     * Utilizado para criar o bind das ações nos elementos da tela.
+     */    
     bind: {
-    	
-    	/**
-    	 * Bind dos elementos da tela.
-    	 */
+        
+        /**
+         * Bind dos elementos da tela.
+         */
         elements: function() {
-        	
+            
             $('.menu_container').click(function() {
-                Produto.action.select(this);
+                Servico.action.select(this);
             });
 
         }
         
     },
     
-	/**
-	 * Todos os métodos utilizados na tela ou vinculados via bind.
-	 * 
-	 * @type type
-	 */      
+    /**
+     * Todos os métodos utilizados na tela ou vinculados via bind.
+     * 
+     * @type type
+     */      
     action: {
 
         /**
@@ -55,4 +55,4 @@ var Produto = {
     }
 };
 
-$(Produto.init);
+$(Servico.init);
