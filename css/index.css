@@ -5,7 +5,10 @@
 #middle { width: 1166px; height: 864px; margin-left: 191px; position: relative }
 	
 	#middle #randomImage { width: 1166px; height: 350px; margin-top: 22px }
-	#middle #arrows { width: 1166px; height: 50px; position: absolute; top: 167px; z-index:999 }
+	#middle #arrows { width: 915px; height: 50px; position: absolute; top: 167px; z-index:999 }
+		#middle #arrows .arrow { cursor: pointer }
+		#middle #arrows .arrow_left { margin-left: 20px; float: left }
+		#middle #arrows .arrow_right { margin-right: 20px; float: right }
 
 	#middle #bullets_canvas { width: 1166px; height: 18px }
 		#middle #bullets { margin-left: 426px; height: 10px; margin-top: 8px }
@@ -17,7 +20,7 @@
 	#middle #media { width: 590px; height: 488px; float: left }
 		#middle #media #mediaTittle { width: 590px; height: 311px }
 
-		#middle #media #mediaTittle #mediaPhrase{ 
+		#middle #media #mediaTittle #mediaPhrase { 
 				width: 221px; height: 69px; padding-left: 116px; padding-top: 249px;
 				font-family: Signika, sans-serif; font-weight: lighter; font-size: 13px; color: #ffffff
 		}

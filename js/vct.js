@@ -24,7 +24,9 @@ var Index = {
         elements: function() {
         	
         	$('#banner').cycle({
-        		 before: Index.action.onBefore
+        		prev: '#prev', 
+    			next: '#next',
+    			before: Index.action.onBefore
         	});
 
         }
@@ -37,26 +39,10 @@ var Index = {
 	 * @type type
 	 */      
     action: {
-    	
+
     	onBefore: function(){
-
-    		var elem = $(".bullet_selected")[0];
-
-    		if(elem == undefined){
-
-    			$($("#bullets").children()[0]).addClass("bullet_selected");
-
-    		}else{
-
-	    		$(elem).removeClass("bullet_selected");
-	    		if($(elem).next().length == true){
-	    			$(elem).next().addClass("bullet_selected");
-	    		}else{
-	    			$($(elem).parent().children()[0]).addClass("bullet_selected");
-	    		}
-
-    		}
-
+    		$('.bullet_selected').removeClass("bullet_selected");
+    		$(this.alt).addClass("bullet_selected");
     	}
     
     }
