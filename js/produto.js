@@ -1,6 +1,6 @@
 
 /**
- * Javascript da tela inicial
+ * Javascript da tela de produto
  */
 var Produto = {
     
