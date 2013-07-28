@@ -1,0 +1,10 @@
+
+
+#middle { width: 1358px; height: 864px; position: relative; padding-top: 25px }
+
+	#middle #left { 
+		margin-left: 232px; width: 337px; height: 606px; float:left; padding-top: 25px; padding-left: 43px;
+		font-family: Signika, sans-serif; font-size: 27px; color: #eaeaea
+	 }
+
+	#middle #right { width: 480px; height: 759px; background: green; float: left }
