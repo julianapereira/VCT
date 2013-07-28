@@ -7,7 +7,17 @@
 
 #middle { width: 1358px; height: 864px; position: relative }
 
-	#middle #bureau { width: 254px; height: 652px; margin-left: 186px; margin-top: 64px; float: left; background-color: beige }
+	#middle #bureau { width: 254px; height: 652px; margin-left: 186px; margin-top: 64px; float: left; }
+		#middle #bureau #bureauTittle { width: 254px; height: 20px; background-color: maroon }
+		#middle #bureau #bureauText { width: 254px; height: 107px; background-color: pink }
+		#middle #bureau #bureau01 { width: 254px; height: 85px; background-color: purple }
+		#middle #bureau #bureau02 { width: 254px; height: 50px; background-color: gray }
+		#middle #bureau #bureau03 { width: 254px; height: 119px; background-color: black }
+		#middle #bureau #bureau04 { width: 254px; height: 66px; background-color: orange }
+		#middle #bureau #bureau05 { width: 254px; height: 84px; background-color: green }
+		#middle #bureau #bureau06 { width: 254px; height: 47px; background-color: gold }
+		#middle #bureau #bureau07 { width: 254px; height: 74px; background-color: red}
+
 
 	#middle #bureauMedia { width: 697px; height: 609px; margin-top: 64px;  float:left;background-color: navy }
 
