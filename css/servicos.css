@@ -29,11 +29,12 @@
 
 	#middle #bureauMedia { width: 697px; height: 585px; margin-top: 22px; float:left ;background-color: navy }
 
-	#middle #bureauBox { width: 697px; height: 107px; float:left }
-		#middle #bureauBox01 { width: 251px; height: 107px; float:left;
-								font-family: Signika, sans-serif; font-weight: lighter; font-size: 13px; color: #2b8fa8}
+	#middle #bureauBox { width: 697px; height: 129px; float:left }
+		#middle #bureauBox01 { width: 123px; height: 99px; padding-left: 93px; padding-right: 39px; padding-top: 20px; float: left;
+								font-family: Signika, sans-serif; font-weight: lighter; font-size: 13px; color: #2b8fa8 }
+		#middle #bureauBox02 { width: 163px; height: 87px; float:left; padding-top: 20px; 
+								font-family: Signika, sans-serif; font-weight: lighter; font-size: 13px; color: #2b8fa8 }
 
-		#middle #bureauBox02 { width: 174px; height: 107px; float:left; background-color: beige }
-
-		#middle #bureauBox03 { width: 272px; height: 107px; float:left; background-color: pink }
+		#middle #bureauBox03 { width: 206px; height: 87px; float:left; padding-left: 13px; padding-right: 10px; padding-top: 20px;
+								font-family: Signika, sans-serif; font-weight: lighter; font-size: 13px; color: #2b8fa8 }
 
