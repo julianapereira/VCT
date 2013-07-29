@@ -27,6 +27,10 @@ var Contato = {
                 Contato.action.formSubmit();
             });
 
+            $('.closeButton').click(function() {
+                VCT.action.closeFormMessage();
+            });
+
         }
         
     },
@@ -43,7 +47,7 @@ var Contato = {
         */
         formSubmit: function(){
 
-            if( $("#empresa").val() == "" || $("#nome").val() == "" 
+            if( $("#empresa").val() == "" || $("#nome").val() == "" || $("#mensagem").val() == ""
                 || $("#telefone").val() == "" || $("#email").val() == "" ){
                 VCT.action.showFormMessage("Favor preencher <br> os campos obrigatórios.");
                 return;

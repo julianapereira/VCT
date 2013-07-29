@@ -46,8 +46,16 @@ var VCT = {
         * Utilizado para mostrar a mensagem do formulário.
         */
         showFormMessage: function(message){
-            $(".container_message").html(message);
+            $(".containerMessage").html(message);
             $(".container_message").show();
+        },
+
+        /**
+        * Utilizado para ferrar a mensagem do formulário.
+        */
+        closeFormMessage: function(){
+            $(".containerMessage").html("");
+            $(".container_message").hide();
         }
 
     }
