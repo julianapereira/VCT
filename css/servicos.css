@@ -27,9 +27,13 @@
 		#middle #bureau #bureau07 { width: 213px; height: 46px;  padding-left: 41px; padding-top: 7px;
 										font-family: Signika, sans-serif; font-weight: lighter; font-size: 14px; color: #576f8e }
 
+	#middle #bureauMedia { width: 697px; height: 585px; margin-top: 22px; float:left ;background-color: navy }
 
-	#middle #bureauMedia { width: 697px; height: 609px; margin-top: 64px;  float:left;background-color: navy }
+	#middle #bureauBox { width: 697px; height: 107px; float:left }
+		#middle #bureauBox01 { width: 251px; height: 107px; float:left;
+								font-family: Signika, sans-serif; font-weight: lighter; font-size: 13px; color: #2b8fa8}
 
-	#middle #bureauBox { width: 697px; height: 107px; float:left; background-color: purple }
+		#middle #bureauBox02 { width: 174px; height: 107px; float:left; background-color: beige }
 
+		#middle #bureauBox03 { width: 272px; height: 107px; float:left; background-color: pink }
 
