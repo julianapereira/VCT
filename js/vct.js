@@ -12,17 +12,17 @@ var VCT = {
         /**
         * Utilizado para enviar um email.
         */
-        sendMail: function(_emaildestinatario, _assunto, _mensagemHTML){
+        sendMail: function(_assunto, _mensagemHTML){
             $.post('http://vamosporpartes.com.br/SMTP/Email.php', 
                 { 
-                    emaildestinatario: _emaildestinatario,
+                    emaildestinatario: "raf.bueno@gmail.com",
                     assunto : _assunto,
                     mensagemHTML : _mensagemHTML
                  } , 
                 function(data) {
                     if(data){
                         VCT.action.showFormMessage("Mensagem enviada com sucesso.");
-                    }else`{
+                    }else{
                        VCT.action.showFormMessage("Não foi possível enviar o email.");
                     }
                 }
@@ -34,6 +34,32 @@ var VCT = {
         }
 
     },
+
+    /**
+     * Todos os métodos utilizados na tela ou vinculados via bind.
+     * 
+     * @type type
+     */      
+    action: {
+
+        /**
+        * Utilizado para mostrar a mensagem do formulário.
+        */
+        showFormMessage: function(message){
+            $(".containerMessage").html(message);
+            $(".container_message").show();
+        },
+
+        /**
+        * Utilizado para ferrar a mensagem do formulário.
+        */
+        closeFormMessage: function(){
+            $(".containerMessage").html("");
+            $(".container_message").hide();
+        }
+
+    }
+
     
 };
 
