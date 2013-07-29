@@ -22,8 +22,8 @@ var Contato = {
     	 * Bind dos elementos da tela.
     	 */
         elements: function() {
-        	
-            $('.menu_container').click(function() {
+
+            $('#enviar').click(function() {
                 Contato.action.formSubmit();
             });
 
@@ -42,23 +42,18 @@ var Contato = {
         * Realiza o submit do form
         */
         formSubmit: function(){
-            
-            if( $("#empresa").val() && $("#nome").val() && $("#telefone").val() && $("#email").val() ){
-                Contato.action.showFormMessage("Favor preencher <br> os campos obrigatórios.");
+
+            if( $("#empresa").val() == "" || $("#nome").val() == "" 
+                || $("#telefone").val() == "" || $("#email").val() == "" ){
+                VCT.action.showFormMessage("Favor preencher <br> os campos obrigatórios.");
                 return;
             }    
 
-            VCT.ajax.sendMail( $("#email").val(), "Entre em Contato", Contato.action.createEmailMessage() );
+            var message = Contato.action.createEmailMessage();
+            VCT.ajax.sendMail( "Entre em Contato",  message );
+            Contato.action.clearForm();
 
         }, 
-
-        /**
-        * Utilizado para mostrar a mensagem do formulário.
-        */
-        showFormMessage: function(message){
-            $(".container_message").html(message));
-            $(".container_message").show();
-        },
 
         /**
         * Utilizado para contruir a mensagem de email.
@@ -66,14 +61,26 @@ var Contato = {
         createEmailMessage: function(){
 
             var emailHtmlMessage = "<h3>Contato</h3><br>";
-            var emailHtmlMessage += "Empresa: " + $("#empresa").val() + "<br>";
-            var emailHtmlMessage += "Nome: " + $("#nome").val() + "<br>";
-            var emailHtmlMessage += "Telefone: " + $("#telefone") + "<br>";
-            var emailHtmlMessage += "Email: " + $("#email").val() + "<br>";
-            var emailHtmlMessage += "Mensagem: " +  $("#mensagem").val() + "<br>";
+            emailHtmlMessage += "Empresa: " + $("#empresa").val() + "<br>";
+            emailHtmlMessage += "Nome: " + $("#nome").val() + "<br>";
+            emailHtmlMessage += "Telefone: " + $("#telefone").val() + "<br>";
+            emailHtmlMessage += "Email: " + $("#email").val() + "<br>";
+            emailHtmlMessage += "Mensagem: " +  $("#mensagem").val() + "<br>";
 
             return emailHtmlMessage;
 
+        }, 
+
+        /**
+        * Limpar o formulário.
+        */
+        clearForm: function(){
+
+            $("#empresa").val("");
+            $("#nome").val("");
+            $("#telefone").val("");
+            $("#email").val("");
+            $("#mensagem").val("");
         }
     
     }

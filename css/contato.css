@@ -7,4 +7,23 @@
 		font-family: Signika, sans-serif; font-size: 27px; color: #eaeaea
 	 }
 
-	#middle #right { width: 480px; height: 759px; background: green; float: left }
+	#middle #right { 
+		width: 422px; height: 717px; float: left; padding-left: 58px; padding-top: 42px;
+		font-family: Signika, sans-serif; font-size: 13px; font-weight: lighter
+	}
+
+		#middle #right p { margin-bottom: 6px } 
+		#middle #right label { color: #4299ae }
+		#middle #right input[type='text'] { width: 340px; height: 28px; background: none; border: none; outline: none; padding: 6px }
+		#middle #right .message { margin-top: 15px }
+		#middle #right textarea { resize: none; border: none; background: none; margin-top: 5px; width: 341px; height: 84px; outline: none; padding: 6px }
+		#middle #right input[type='button'] { width: 80px; height: 33px; background: none; border: none; outline: none; cursor: pointer; margin-left: 294px; color: #4db3cc }
+		#middle #right .obrigatorio { color: #4299ae; font-size: 9px }
+
+		#middle #right .container_message { position: absolute; top: 0px }
+
+		#middle #right #rightBottom { width: 403px; height: 222px; margin-top: 25px; font-size: 13px; color: #4299ae }
+			#middle #right #rightBottom span { color: #073565 }
+			#middle #right #rightBottom .bold { font-weight: bold }
+			#middle #right #rightBottom .bottomspace { margin-bottom: 2px }
+
