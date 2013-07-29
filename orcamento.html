@@ -15,81 +15,230 @@
 
 	<body>
 		    
-			<div id="budgetContent">
+		<div id="budgetContent">
         
-				<div id="header">
+			<div id="header">
 				
-					<div id="logo"> 
+				<div id="logo"> 
+					<a href="index.html">
 						<img src="img/logo.png" alt="VCT"/>
-         	</div>	<!-- </logo> --> 
+					</a>
+         		</div>	<!-- </logo> --> 
 									
-					<div id="menu">
+				<div id="menu">
 					
-                <div id="menuProduto">
-                	<div class="signika_12_normal_gray">
-									<a href="produto.html">PRODUTOS</a> 
-								</div>
-							</div> <!-- </menuProdutos> -->
+	                <div id="menuProduto">
+	                	<div>
+							<a href="produto.html">PRODUTOS</a> 
+						</div>
+					</div> 
+					<!-- </menuProdutos> -->
 
-								<div id="menuServico">
-									<div class="signika_12_normal_gray">
-										<a href="servico.html">SERVI&Ccedil;OS</a>
-									</div>
-								</div> <!-- </menuServico> -->
-								
-								<div id="menuEmpresa">
-									<div class="signika_12_normal_gray">
-										<a href="empresa.html">EMPRESA</a>
-									</div>
-								</div> <!-- </menuEmpresa> -->
-	
-								<div id="menuSeguranca">
-									<div class="signika_12_normal_gray">
-										<a href="seguranca.html">SEGURAN&Ccedil;A</a>
-									</div>
-								</div> <!-- </menuSeguranca> -->
-	
-								<div id="menuOrcamento">
-									<div class="signika_12_normal_gray">
-										<a href="orcamento.html">OR&Ccedil;AMENTO</a>
-									</div>
-								</div> <!-- </menuOrcamento> -->
+					<div id="menuServico">
+						<div>
+							<a href="servico.html">SERVI&Ccedil;OS</a>
+						</div>
+					</div> <!-- </menuServico> -->
+					
+					<div id="menuEmpresa">
+						<div>
+							<a href="empresa.html">EMPRESA</a>
+						</div>
+					</div> <!-- </menuEmpresa> -->
 
-								<div id="menuContato">
-									<div class="signika_12_normal_gray">
-										<a href="contato.html">CONTATO</a>
-									</div>
-								</div> <!-- </menuContato> -->
+					<div id="menuSeguranca">
+						<div>
+							<a href="seguranca.html">SEGURAN&Ccedil;A</a>
+						</div>
+					</div> <!-- </menuSeguranca> -->
 
-					</div>	<!-- </menu> --> 
+					<div id="menuOrcamento">
+						<div>
+							<a href="orcamento.html">OR&Ccedil;AMENTO</a>
+						</div>
+					</div> <!-- </menuOrcamento> -->
+
+					<div id="menuContato">
+						<div>
+							<a href="contato.html">CONTATO</a>
+						</div>
+					</div> <!-- </menuContato> -->
+
+				</div>	<!-- </menu> --> 
 				      
-				</div>	<!-- </header> -->
+			</div>	<!-- </header> -->
 
-         <div id="middle"> 
+
+         	<div id="middle"> 
          
-         	<div id="randomImage"> 
-         
-           </div>	<!-- </randomImage> --> 
-          
-          
-         	<div id="media"> 
-         
-          </div>	<!-- </media> -->
-         
-         </div>	<!-- </middle> --> 
+         		<div id="left">
+         			Faça seu orçamento:
+         		</div>
+
+         		<div id="right">
+         			
+         			<div class="canvas_input">
+         				<label>Empresa*</label>
+         				<input id="empresa" type="text">
+         			</div>
+
+         			<div class="canvas_input">
+         				<label>Contato*</label> 
+         				<input id="contato" type="text" />
+         			</div>
+
+         			<div class="canvas_input">
+         				<label>Telefone*</label> 
+         				<input id="telefone" type="text" />
+         			</div>
+
+         			<div class="canvas_input">
+         				<label>Email*</label> 
+         				<input id="email" type="text" />
+         			</div>
+
+         			<div class="canvas_input_quantidade">
+         				<label>Quantidades</label> 
+         				<input id="quantidade" type="text" />
+         			</div>
+
+         			<div class="canvas_input_espessura">
+         				<label>Espessura</label> 
+         				<div id="espessura">0,76mm</div>
+         				<div id="espessuras" style="display:none">
+         					<div>0,82mm</div>
+         					<div>0,76mm</div>
+         					<div>0,60mm</div>
+         					<div>0,54mm</div>
+         					<div>0,50mm</div>
+         					<div>0,45mm</div>
+         					<div>0,32mm</div>
+         				</div>
+         			</div> 
+
+         			<div class="canvas_input_numeroCores">
+         				<label>Nº de cores</label> 
+         				<input id="numeroCores" type="text" />
+         			</div>
+
+         			<div class="canvas_input_tarjaMagnetica">
+         				<label>Tarja Magnética</label>
+         				<div class="radioButtons">
+	         				<div class="radioLeft">
+		         				<div class="tarjaMagnetica radio" data-group="tarjaMagnetica" data-value="Sim"></div>
+		         				<label>Sim</label>
+	         				</div>
+	         				<div class="radioRight">
+		         				<div class="tarjaMagnetica radio" data-group="tarjaMagnetica" data-value="Não"></div>
+		         				<label>Não</label>
+	         				</div>
+	         				<input type="hidden" id="tarjaMagnetica" name="tarjaMagnetica" value="" />
+         				</div>
+         			</div>
+
+         			<div class="canvas_input_coercividade">
+         				<label>Coercividade</label>
+         				<div class="radioButtons">
+	         				<div class="radioLeft">
+		         				<div class="coercividade radio" data-group="coercividade" data-value="Alta"></div>
+		         				<label>Alta</label>
+	         				</div>
+	         				<div class="radioRight">
+		         				<div class="coercividade radio" data-group="coercividade" data-value="Baixa"></div>
+		         				<label>Baixa</label>
+	         				</div>
+	         				<input type="hidden" id="coercividade" name="coercividade" value="" />
+         				</div>
+         			</div>         			
+
+         			<div class="canvas_input_painelAssinatura">
+         				<label>Painel de assinatura</label>
+         				<div class="radioButtons">
+	         				<div class="radioLeft">
+		         				<div class="painelAssinatura radio" data-group="painelAssinatura" data-value="Sim"></div>
+		         				<label>Sim</label>
+	         				</div>
+	         				<div class="radioRight">
+		         				<div class="painelAssinatura radio" data-group="painelAssinatura" data-value="Não"></div>
+		         				<label>Não</label>
+	         				</div>
+	         				<input type="hidden" id="painelAssinatura" name="painelAssinatura" value="" />
+         				</div>
+         			</div>   
+
+         			<div class="canvas_input_etiquetaRaspadinha">
+         				<label>Etiqueta raspadinha</label>
+         				<div class="radioButtons">
+	         				<div class="radioLeft">
+		         				<div class="etiquetaRaspadinha radio" data-group="etiquetaRaspadinha" data-value="Sim"></div>
+		         				<label>Sim</label>
+	         				</div>
+	         				<div class="radioRight">
+		         				<div class="etiquetaRaspadinha radio" data-group="etiquetaRaspadinha" data-value="Não"></div>
+		         				<label>Não</label>
+	         				</div>
+	         				<input type="hidden" id="etiquetaRaspadinha" name="etiquetaRaspadinha" value="" />
+         				</div>
+         			</div>    
+
+
+         			<div class="canvas_input_personalizacao">
+         				<label>Personalização</label>
+         				<div class="radioButtons">
+	         				<div class="radioLeft">
+		         				<div class="personalizacao radio" data-group="personalizacao" data-value="Alta"></div>
+		         				<label>Alta</label>
+	         				</div>
+	         				<div class="radioRight">
+		         				<div class="personalizacao radio" data-group="personalizacao" data-value="Baixa"></div>
+		         				<label>Baixa</label>
+	         				</div>
+	         				<input type="hidden" id="personalizacao" name="personalizacao" value="" />
+         				</div>
+         			</div>         
+
+         			<div class="canvas_input_qtdLinhasPersonalizacao">
+         				<label>Quant. linhas da personalização</label> 
+         				<input id="qtdLinhasPersonalizacao" type="text" />
+         			</div>
+
+         			<div class="canvas_input_corPersonalizacao">
+         				<label>Cor da personalização</label> 
+         				<input id="corPersonalizacao" type="text" />
+         			</div>         			
+
+         			<div class="canvas_mensagem">
+	         			<label>Observações</label> 
+         				<textarea id="observacoes"></textarea>
+         			</div>
+
+         			<div class="obrigatorio">*Campos obrigatórios</div>	
+         			
+         			<div id="enviar">Enviar</div>
+
+		         	<div class="container_message" style="display:none">
+		         		<div class="closeButton"></div>
+		         		<div class="containerMessage"></div>
+		         	</div>         			
+	         		
+         		</div> <!-- </right> -->
+
+        	</div>	<!-- </middle> --> 
         
             
-           	<div id="footer">
-           	
+			<div id="footer">
+	           		
            		<div id="footerTittle">
-           			<div class="helvetica_11_lighter_blue">
-           				&copy; 2013 COPYRIGHT - VCT Brasil Ltda. - Todos os direitos reservados. 		
-           			</div>          			
-            		</div> <!-- </footerTittle> --> 
-            	
-            	</div> <!-- </footer> -->          
+       				&copy; 2013 COPYRIGHT - VCT Brasil Ltda. - Todos os direitos reservados. 		
+       			</div>    
+       			      			
+       			<div id="studio">
+       				Design: Studio RF1
+       			</div>
+        	
+	        </div> <!-- </footer> -->       
             
-			</div>	<!-- </budgetContent> -->
+		</div>	<!-- </budgetContent> -->
 		
 		<!-- Javascript -->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 

@@ -55,7 +55,7 @@ var Contato = {
 
             var message = Contato.action.createEmailMessage();
             VCT.ajax.sendMail( "Entre em Contato",  message );
-            Contato.action.clearForm();
+            VCT.action.clearForm();
 
         }, 
 
@@ -73,18 +73,6 @@ var Contato = {
 
             return emailHtmlMessage;
 
-        }, 
-
-        /**
-        * Limpar o formulário.
-        */
-        clearForm: function(){
-
-            $("#empresa").val("");
-            $("#nome").val("");
-            $("#telefone").val("");
-            $("#email").val("");
-            $("#mensagem").val("");
         }
     
     }
