@@ -10,8 +10,10 @@
 	#middle #bureau { width: 254px; height: 652px; margin-left: 186px; margin-top: 64px; float: left; }
 		#middle #bureau #bureauTittle { width: 213px; height: 20px; padding-left: 41px; 
 		 								font-family: Signika, sans-serif; font-weight: bold; font-size: 16px; color: #ffffff }
-		#middle #bureau #bureauText { width: 254px; height: 107px; background-color: pink }
-		#middle #bureau #bureau01 { width: 254px; height: 85px; background-color: purple }
+		#middle #bureau #bureauText { width: 174px; height: 96px ; padding-right: 39px; padding-left: 41px; padding-top: 11px; letter-spacing: 0.2px; 
+										font-family: Signika, sans-serif; font-weight: normal; font-size: 14px; color: #4db3cc }
+		#middle #bureau #bureau01 { width: 213px; height: 85px;  padding-left: 41px; 
+										font-family: Signika, sans-serif; font-weight: lighter; font-size: 14px; color: #ffffff }
 		#middle #bureau #bureau02 { width: 254px; height: 50px; background-color: gray }
 		#middle #bureau #bureau03 { width: 254px; height: 119px; background-color: black }
 		#middle #bureau #bureau04 { width: 254px; height: 66px; background-color: orange }
