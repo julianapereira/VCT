@@ -56,6 +56,14 @@ var VCT = {
         closeFormMessage: function(){
             $(".containerMessage").html("");
             $(".container_message").hide();
+        },
+
+        /**
+        * Limpar os dados do formulário.
+        */
+        clearForm: function(){
+           $("input").val("");
+           $("textarea").val("");
         }
 
     }

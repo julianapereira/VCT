@@ -1,0 +1,98 @@
+#middle { width: 1358px; height: 868px; position: relative; padding-top: 19px }
+
+	#middle #left { 
+		width: 323px; height: 630px; float: left; margin-left: 233px;
+		padding-top: 153px; padding-left: 56px;
+		font-family: Signika, sans-serif; font-size: 27px; color: #eaeaea
+	 }
+
+	#middle #right { 
+		width: 420px; height: 740px; float: left; padding-top: 43px; padding-left: 62px;
+		font-family: Signika, sans-serif; font-size: 13px; color: #eaeaea
+	}
+
+		#middle #right input { color: #4299ae }
+		#middle #right label { color: #4299ae }
+
+		#middle #right .canvas_input { height: 62px; width: 359px }		
+		#middle #right .canvas_input input[type='text'] { 
+			width: 342px; height: 28px; background: none; border: none; outline: none; 
+			padding-top: 6px; padding-left: 6px ; padding-right: 6px  
+		}	
+
+		#middle #right .canvas_input_quantidade { height: 62px; width: 75px; float: left }		
+		#middle #right .canvas_input_quantidade input[type='text'] { 
+			width: 54px; height: 28px; background: none; border: none; outline: none; 
+			padding-top: 6px; padding-left: 6px ; padding-right: 6px
+		}	
+
+		#middle #right .canvas_input_espessura { height: 62px; width: 75px; float: left; margin-left: 67px; position: relative }		
+		#middle #right #espessura { 
+			width: 73px; height: 29px; cursor: pointer; color: #4299ae;
+			padding-left: 9px; padding-top: 11px
+		 }	
+		 #middle #right #espessuras { 
+		 		position: absolute; top: 49px; width: 82px; height: 120px; background-color: #e4e4e4;
+		 		color: #4299ae; padding-top: 5px
+		 }
+		 #middle #right #espessuras div { padding-left: 9px } 
+		 #middle #right #espessuras div:hover { background-color: #cecece; cursor: pointer } 
+
+		#middle #right .canvas_input_numeroCores { height: 62px; width: 75px; float: left; margin-left: 67px }
+		#middle #right .canvas_input_numeroCores input[type='text'] { 
+			width: 54px; height: 28px; background: none; border: none; outline: none; 
+			padding-top: 6px; padding-left: 6px ; padding-right: 6px
+		}	
+
+		#middle #right .radioButtons { margin-top: 5px }
+		#middle #right .radioButtons input[type="radio"] { margin-right: 6px; opacity: 0; width: 0px; height: 0px }
+		#middle #right .radioButtons .radio { float: left; width: 16px; height: 8px; margin-top: 2px; cursor: pointer }
+		#middle #right .radioButtons .checked { background: url("../img/checked.png") no-repeat }
+		#middle #right .radioButtons .radioLeft { float:left; margin-left: 9px }
+		#middle #right .radioButtons .radioRight { float:left }
+
+		#middle #right .canvas_input_tarjaMagnetica { height: 52px; padding-top: 10px; width: 125px; clear: both; float: left }
+		#middle #right .canvas_input_tarjaMagnetica .radioRight { margin-left: 23px }
+
+		#middle #right .canvas_input_coercividade { height: 52px; padding-top: 10px; width: 125px; float: left; margin-left:85px }	
+		#middle #right .canvas_input_coercividade .radioRight { margin-left: 28px  }
+
+		#middle #right .canvas_input_painelAssinatura { height: 52px; padding-top: 7px; width: 125px; clear: both; float: left }
+		#middle #right .canvas_input_painelAssinatura .radioRight { margin-left: 23px }
+
+		#middle #right .canvas_input_etiquetaRaspadinha { height: 52px; padding-top: 7px; width: 125px; float: left; margin-left:88px }
+		#middle #right .canvas_input_etiquetaRaspadinha .radioRight { margin-left: 23px }
+
+		#middle #right .canvas_input_personalizacao { height: 52px; padding-top: 13px; width: 125px; clear: both; float: left }
+		#middle #right .canvas_input_personalizacao .radioLeft { margin-left: 6px }
+		#middle #right .canvas_input_personalizacao .radioRight { margin-left: 30px }
+
+
+		#middle #right .canvas_input_qtdLinhasPersonalizacao { height: 62px; width: 195px; clear: both; float: left; margin-top: 10px }		
+		#middle #right .canvas_input_qtdLinhasPersonalizacao input[type='text'] { 
+			width: 180px; height: 28px; background: none; border: none; outline: none; 
+			padding-top: 6px; padding-left: 6px ; padding-right: 6px
+		}	
+
+		#middle #right .canvas_input_corPersonalizacao { height: 62px; width: 141px; float: left; margin-top: 10px; margin-left: 16px }
+		#middle #right .canvas_input_corPersonalizacao input[type='text'] { 
+			width: 129px; height: 28px; background: none; border: none; outline: none; 
+			padding-top: 6px; padding-left: 6px ; padding-right: 6px
+		}	
+
+		#middle #right .canvas_mensagem { height: 110px; padding-top:3px; clear: both }
+		#middle #right textarea { resize: none; border: none; background: none; margin-top: 2px; width: 341px; height: 60px; outline: none; padding: 6px; overflow: auto; color: #4299ae }
+		
+		#middle #right .obrigatorio { color: #4299ae; font-size: 9px; clear: both; float: left }
+		#middle #right #enviar { 
+			width: 80px; height: 24px; background: none; border: none; outline: none; cursor: pointer;
+			margin-left: 174px; color: #4db3cc; text-align: center; padding-top: 22px; float: left 
+		}
+
+		#middle #right .container_message { 
+			position: absolute; top: 46px; left: 650px; background: url("../img/imgMessageBoxBudget.png") no-repeat; height: 695px; width: 403px;
+			color: #4299ae; font-size: 17px; font-family: Signika, sans-serif; font-weight: lighter
+		}
+			#middle #right .closeButton { height: 27px; width: 30px; margin-left: 362px; margin-top: 20px; cursor: pointer }
+			#middle #right .containerMessage { margin-top: 142px; text-align: center }		
+	

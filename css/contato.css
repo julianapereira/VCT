@@ -13,27 +13,19 @@
 	}
 
 
+		#middle #right input { color: #4299ae }
 		#middle #right label { color: #4299ae }
 
 		#middle #right .canvas_input { height: 62px; width: 359px }		
 		#middle #right input[type='text'] { width: 342px; height: 28px; background: none; border: none; outline: none; padding-top: 6px; padding-left: 6px ; padding-right: 6px  }
 		
 		#middle #right .canvas_mensagem { height: 121px; padding-top:10px }
-		#middle #right textarea { resize: none; border: none; background: none; margin-top: 5px; width: 341px; height: 84px; outline: none; padding: 6px; overflow: auto }
+		#middle #right textarea { resize: none; border: none; background: none; margin-top: 5px; width: 341px; height: 84px; outline: none; padding: 6px; overflow: auto; color: #4299ae }
 		
 		#middle #right #enviar { width: 80px; height: 24px; background: none; border: none; outline: none; cursor: pointer; margin-left: 296px; color: #4db3cc; text-align: center; padding-top: 10px }
 		
 
-
-
 		#middle #right .obrigatorio { color: #4299ae; font-size: 9px }
-
-
-
-
-
-
-
 
 		#middle #right .container_message { 
 			position: absolute; top: 56px; left: 650px; background: url("../img/messageBox.png") no-repeat; height: 449px; width: 413px;
