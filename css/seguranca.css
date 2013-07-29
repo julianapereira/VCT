@@ -7,8 +7,33 @@
 
 	#middle { width: 1358px; height: 884px; position: relative }
 		#middle #security { width: 492px; height: 718px; margin-left: 217px; margin-top: 20px; float: left ;background-color: red }
-			#middle #security #securityTittle { width: 492px; height: 53px; background-color: maroon }
-			#middle #security #securityText  { width: 492px; height: 167px; background-color: orange }
-			#middle #security #security01 { width: 492px; height: 167px; background-color: gold }
+			#middle #security #securityBox01 { width: 222px; height: 498px;  float: left; background-color: black }
+				#middle #security #security01 { width: 222px; height: 121px; background-color: gold }
+				#middle #security #security02 { width: 222px; height: 138px; background-color: pink }
+				#middle #security #security03 { width: 222px; height: 119px; background-color: gray }
+				#middle #security #security04 { width: 222px; height: 120px; background-color: navy }
+
+			#middle #security #securityBox02 { width: 270px; height: 498px;  float: left; background-color: olive }
+				#middle #security #security05 { width: 270px; height: 138px; background-color: blue }
+				#middle #security #security06 { width: 270px; height: 121px; background-color: beige }
+				#middle #security #security07 { width: 270px; height: 119px; background-color: turquoise }
+				#middle #security #security08 { width: 270px; height: 120px; background-color: brown }
+
+			#middle #security #securityTittle { width: 492px; height: 53px; float: left;  background-color: maroon }
+			#middle #security #securityText  { width: 492px; height: 167px;  float: left; background-color: orange }
 
 		#middle #bracket { width: 381px; height: 764px; margin-top: 20px; float:left ;background-color: purple }
+			#middle #bracket #bracketBox01 { width: 211px; height: 544px;  float: left; background-color: maroon }
+				#middle #bracket #bracket01 { width: 211px; height: 121px; background-color: gold }
+				#middle #bracket #bracket02 { width: 211px; height: 191px; background-color: green }
+				#middle #bracket #bracket03 { width: 211px; height: 232px; background-color: darkgreen }
+
+			#middle #bracket #bracketBox02 { width: 170px; height: 330px;  float: left; background-color: gray }
+				#middle #bracket #bracket04 { width: 170px; height: 170px; background-color: pink }
+				#middle #bracket #bracket05 { width: 170px; height: 160px; background-color: gold }
+
+			#middle #bracket #bracketTittle  { width: 381px; height: 53px; float: left;  background-color: black } 
+			#middle #bracket #bracketText  { width: 381px; height: 167px; float: left;  background-color: navy } 
+
+			
+			
