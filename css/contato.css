@@ -1,5 +1,9 @@
 
 
+#contactContent { width: 1358px ; height: 1314px; margin: auto 50%; left: -679px; position: absolute; background: url(../img/contactBackground.png ) no-repeat 0 0 }
+
+
+
 #middle { width: 1358px; height: 864px; position: relative; padding-top: 25px }
 
 	#middle #left { 
