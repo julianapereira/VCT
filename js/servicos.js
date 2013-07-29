@@ -23,7 +23,7 @@ var Servico = {
          */
         elements: function() {
             
-            $('.menu_container').click(function() {
+            $('.thumb').click(function() {
                 Servico.action.select(this);
             });
 
@@ -43,7 +43,7 @@ var Servico = {
         */
         select: function(menuElement){
             
-            $('.menu_container').removeClass("selected");
+            $('.thumb').removeClass("selected");
             $(menuElement).addClass("selected");
 
             $('.container').hide();
