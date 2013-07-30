@@ -8,15 +8,18 @@
 	#middle { width: 1358px; height: 884px; position: relative }
 		#middle #security { width: 492px; height: 718px; margin-left: 217px; margin-top: 20px; float: left }
 			#middle #security #securityBox01 { width: 222px; height: 498px;  float: left }
-				#middle #security #security01 { width: 222px; height: 121px;
+				#middle #security #security01 { width: 222px; height: 105px; padding-bottom: 16px; line-height: 22px; 
 												font-family: Signika, sans-serif; font-weight: lighter; font-size: 14px; color: #a6a6a6 }
-				#middle #security #security02 { width: 222px; height: 138px }
-				#middle #security #security03 { width: 222px; height: 119px; background-color: gray }
-				#middle #security #security04 { width: 222px; height: 120px; background-color: navy }
-
-			#middle #security #securityBox02 { width: 270px; height: 498px;  float: left; background-color: olive }
-				#middle #security #security05 { width: 270px; height: 138px; background-color: blue }
-				#middle #security #security06 { width: 270px; height: 121px; background-color: beige }
+				#middle #security #security02 { width: 222px; height: 138px; line-height: 22px; 
+												font-family: Signika, sans-serif; font-weight: lighter; font-size: 14px; color: #4ab2cb }
+				#middle #security #security03 { width: 222px; height: 119px; line-height: 22px;
+												font-family: Signika, sans-serif; font-weight: lighter; font-size: 14px; color: #a6a6a6 }
+				#middle #security #security04 { width: 222px; height: 120px; line-height: 22px;
+												font-family: Signika, sans-serif; font-weight: lighter; font-size: 14px; color: #4ab2cb }
+			#middle #security #securityBox02 { width: 270px; height: 498px;  float: left }
+				#middle #security #security05 { width: 270px; height: 138px; line-height: 22px;
+ 												font-family: Signika, sans-serif; font-weight: lighter; font-size: 14px; color: #a6a6a6 }
+				#middle #security #security06 { width: 270px; height: 121px; }
 				#middle #security #security07 { width: 270px; height: 119px; background-color: turquoise }
 				#middle #security #security08 { width: 270px; height: 120px; background-color: brown }
 
