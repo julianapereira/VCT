@@ -2,11 +2,21 @@
 
 #enterpriseContent { width: 1358px ; height: 1314px; margin: auto 50%; left: -679px; position: absolute; background: url(../img/enterpriseBackground.png ) no-repeat 0 0 }
 
-#middle { width: 958px; height: 1045px; margin-left: 182px; margin-top: 19px; position: relative }
+#middle { width: 958px; height: 1026px; margin-left: 182px; margin-top: 19px; position: relative }
 
 	#middle #left { 
 		height: 231px; width: 180px; float: left; padding-left: 44px; padding-top: 150px;
 		font-family: Signika, sans-serif; font-weight: lighter; font-size: 17px; color: #ffffff
 	}
 
-	#middle #right { height: 875px; width: 734px; float: left }	
+	#middle #right { height: 844px; width: 704px; float: left; padding-top: 31px; padding-left: 30px }	
+
+	#middle #right #rightUp { height: 460px }
+		#middle .image { width: 567px; height: 392px; float: left }
+		#middle .menu { width: 92px; height: 392px; float: left; margin-left: 12px }
+
+	#middle #right #rightBottom { 
+		height: 414px; font-size: 14px; color: #0093c9; text-align: justify;
+		font-family: Signika, sans-serif; font-weight: lighter; letter-spacing: 1px; line-height: 18px
+	}
+	#middle #right #rightBottom p { margin-bottom: 23px }

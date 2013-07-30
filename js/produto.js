@@ -48,7 +48,7 @@ var Produto = {
 
             $('.container').hide();
             var container = $(menuElement).data("container");
-            $(container).show();
+            $(container).fadeIn("slow");
 
         }
     
