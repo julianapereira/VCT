@@ -34,7 +34,7 @@ body { background-color: #ffffff }
 #footer { width: 1162px; height: 296px; margin-left: 207px; padding-top: 54px }
 	
 	#footer #footerTittle { 
-		width: 516px; height: 12px; padding-left: 268px; float:left;
+		width: 499px; height: 12px; padding-left: 285px; float:left;
 		font-family: Helvetica, Arial, sans-serif; font-weight: lighter; font-size: 11.65px; color: #0073ef
 	}
 
