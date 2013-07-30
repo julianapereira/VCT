@@ -6,10 +6,11 @@
 /*  Middle  */
 
 	#middle { width: 1358px; height: 884px; position: relative }
-		#middle #security { width: 492px; height: 718px; margin-left: 217px; margin-top: 20px; float: left ;background-color: red }
-			#middle #security #securityBox01 { width: 222px; height: 498px;  float: left; background-color: black }
-				#middle #security #security01 { width: 222px; height: 121px; background-color: gold }
-				#middle #security #security02 { width: 222px; height: 138px; background-color: pink }
+		#middle #security { width: 492px; height: 718px; margin-left: 217px; margin-top: 20px; float: left }
+			#middle #security #securityBox01 { width: 222px; height: 498px;  float: left }
+				#middle #security #security01 { width: 222px; height: 121px;
+												font-family: Signika, sans-serif; font-weight: lighter; font-size: 14px; color: #a6a6a6 }
+				#middle #security #security02 { width: 222px; height: 138px }
 				#middle #security #security03 { width: 222px; height: 119px; background-color: gray }
 				#middle #security #security04 { width: 222px; height: 120px; background-color: navy }
 
@@ -19,8 +20,10 @@
 				#middle #security #security07 { width: 270px; height: 119px; background-color: turquoise }
 				#middle #security #security08 { width: 270px; height: 120px; background-color: brown }
 
-			#middle #security #securityTittle { width: 492px; height: 53px; float: left;  background-color: maroon }
-			#middle #security #securityText  { width: 492px; height: 167px;  float: left; background-color: orange }
+			#middle #security #securityTittle { width: 492px; height: 37px; padding-top: 16px;float: left;
+												font-family: Signika, sans-serif; font-weight: semibold; font-size: 20px; color: #ffffff }
+			#middle #security #securityText  { width: 492px; height: 168px; float: left; line-height: 27px; letter-spacing: 1px;
+												font-family: Signika, sans-serif; font-weight: lighter; font-size: 16px; color: #4ab2cb }
 
 		#middle #bracket { width: 381px; height: 764px; margin-top: 20px; float:left ;background-color: purple }
 			#middle #bracket #bracketBox01 { width: 211px; height: 544px;  float: left; background-color: maroon }
