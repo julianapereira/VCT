@@ -19,7 +19,7 @@
 			#middle #security #securityBox02 { width: 270px; height: 498px;  float: left }
 				#middle #security #security05 { width: 270px; height: 138px; line-height: 22px;
  												font-family: Signika, sans-serif; font-weight: lighter; font-size: 14px; color: #a6a6a6 }
-				#middle #security #security06 { width: 270px; height: 122px; padding-top: 4px; line-height: 22px;
+				#middle #security #security06 { width: 270px; height: 118px; padding-top: 8px; line-height: 22px;
 												font-family: Signika, sans-serif; font-weight: lighter; font-size: 14px; color: #4ab2cb }
 				#middle #security #security07 { width: 270px; height: 116px; padding-top: 3px; line-height: 22px;   
 												font-family: Signika, sans-serif; font-weight: lighter; font-size: 14px; color: #a6a6a6 }
@@ -31,18 +31,21 @@
 			#middle #security #securityText  { width: 492px; height: 168px; float: left; line-height: 27px; 
 												font-family: Signika, sans-serif; font-weight: lighter; font-size: 16px; color: #4ab2cb }
 
-		#middle #bracket { width: 381px; height: 764px; margin-top: 20px; float:left ;background-color: purple }
-			#middle #bracket #bracketBox01 { width: 211px; height: 544px;  float: left; background-color: maroon }
-				#middle #bracket #bracket01 { width: 211px; height: 121px; background-color: gold }
-				#middle #bracket #bracket02 { width: 211px; height: 191px; background-color: green }
+		#middle #bracket { width: 381px; height: 764px; margin-top: 20px; float:left  }
+			#middle #bracket #bracketBox01 { width: 211px; height: 544px;  float: left }
+				#middle #bracket #bracket01 { width: 211px; height: 121px;
+												font-family: Signika, sans-serif; font-weight: lighter; font-size: 14px; color: #4299ae }
+				#middle #bracket #bracket02 { width: 211px; height: 191px }
 				#middle #bracket #bracket03 { width: 211px; height: 232px; background-color: darkgreen }
 
 			#middle #bracket #bracketBox02 { width: 170px; height: 330px;  float: left; background-color: gray }
 				#middle #bracket #bracket04 { width: 170px; height: 170px; background-color: pink }
 				#middle #bracket #bracket05 { width: 170px; height: 160px; background-color: gold }
 
-			#middle #bracket #bracketTittle  { width: 381px; height: 53px; float: left;  background-color: black } 
-			#middle #bracket #bracketText  { width: 381px; height: 167px; float: left;  background-color: navy } 
+			#middle #bracket #bracketTittle  { width: 381px; height: 41px; padding-top: 12px; float: left; 
+												font-family: Signika, sans-serif; font-weight: semibold; font-size: 20px; color: #ffffff } 
+			#middle #bracket #bracketText  { width: 381px; height: 167px; float: left; line-height: 21px;  
+			 									font-family: Signika, sans-serif; font-weight: lighter; font-size: 14px; color: #214972} 
 
 			
 			
