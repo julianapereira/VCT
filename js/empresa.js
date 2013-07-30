@@ -23,9 +23,9 @@ var Empresa = {
          */
         elements: function() {
             
-            $('.menu_container').click(function() {
+            $('.thumb').click(function() {
                 Empresa.action.select(this);
-            });
+            });            
 
         }
         
@@ -43,7 +43,7 @@ var Empresa = {
         */
         select: function(menuElement){
             
-            $('.menu_container').removeClass("selected");
+            $('.thumb').removeClass("selected");
             $(menuElement).addClass("selected");
 
             $('.container').hide();

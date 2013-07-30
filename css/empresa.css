@@ -9,11 +9,12 @@
 		font-family: Signika, sans-serif; font-weight: lighter; font-size: 17px; color: #ffffff
 	}
 
-	#middle #right { height: 844px; width: 704px; float: left; padding-top: 31px; padding-left: 30px }	
+	#middle #right { height: 844px; width: 702px; float: left; padding-top: 33px; padding-left: 32px }	
 
 	#middle #right #rightUp { height: 460px }
 		#middle .image { width: 567px; height: 392px; float: left }
 		#middle .menu { width: 92px; height: 392px; float: left; margin-left: 12px }
+		#middle .thumb { cursor: pointer }
 
 	#middle #right #rightBottom { 
 		height: 414px; font-size: 14px; color: #0093c9; text-align: justify;
