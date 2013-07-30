@@ -19,13 +19,16 @@
 			#middle #security #securityBox02 { width: 270px; height: 498px;  float: left }
 				#middle #security #security05 { width: 270px; height: 138px; line-height: 22px;
  												font-family: Signika, sans-serif; font-weight: lighter; font-size: 14px; color: #a6a6a6 }
-				#middle #security #security06 { width: 270px; height: 121px; }
-				#middle #security #security07 { width: 270px; height: 119px; background-color: turquoise }
-				#middle #security #security08 { width: 270px; height: 120px; background-color: brown }
+				#middle #security #security06 { width: 270px; height: 116px; padding-top: 5px; line-height: 22px;
+												font-family: Signika, sans-serif; font-weight: lighter; font-size: 14px; color: #4ab2cb }
+				#middle #security #security07 { width: 270px; height: 116px; padding-top: 3px; line-height: 22px;   
+												font-family: Signika, sans-serif; font-weight: lighter; font-size: 14px; color: #a6a6a6 }
+				#middle #security #security08 { width: 270px; height: 120px;  line-height: 22px;
+												font-family: Signika, sans-serif; font-weight: lighter; font-size: 14px; color: #4ab2cb }
 
-			#middle #security #securityTittle { width: 492px; height: 37px; padding-top: 16px;float: left;
+			#middle #security #securityTittle { width: 492px; height: 37px; padding-top: 12px;float: left;
 												font-family: Signika, sans-serif; font-weight: semibold; font-size: 20px; color: #ffffff }
-			#middle #security #securityText  { width: 492px; height: 168px; float: left; line-height: 27px; letter-spacing: 1px;
+			#middle #security #securityText  { width: 492px; height: 168px; float: left; line-height: 27px; 
 												font-family: Signika, sans-serif; font-weight: lighter; font-size: 16px; color: #4ab2cb }
 
 		#middle #bracket { width: 381px; height: 764px; margin-top: 20px; float:left ;background-color: purple }
