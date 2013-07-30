@@ -13,7 +13,7 @@
 	#middle #bullets_canvas { width: 1166px; height: 18px }
 		#middle #bullets { margin-left: 426px; height: 10px; margin-top: 8px }
 			#middle .bullet { width: 15px; height: 12px; float: left; margin-right: 6px }
-			#middle .bullet_selected { background-color: #0098B6 }
+			#middle .bullet_selected { background-color: #006cdd }
 
 	#middle #middleContent { width: 1166px; height: 488px }
 
@@ -21,11 +21,11 @@
 		#middle #media #mediaTittle { width: 590px; height: 311px }
 
 		#middle #media #mediaTittle #mediaPhrase { 
-				width: 221px; height: 69px; padding-left: 116px; padding-top: 249px;
+				width: 221px; height: 69px; padding-left: 122px; padding-top: 240px; line-height: 18px;
 				font-family: Signika, sans-serif; font-weight: lighter; font-size: 13px; color: #ffffff
 		}
 
-		#middle #media #playerTittle { width: 474px; height: 173px; padding-left: 116px; padding-top: 8px }
+		#middle #media #playerTittle { width: 468px; height: 173px; padding-left: 122px; padding-top: 8px }
 			#middle #media #playerTittle a { font-family: Signika, sans-serif; font-weight: lighter; font-size: 13px; color: #1046d6 }
 	
 

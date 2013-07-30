@@ -1,3 +1,12 @@
 
 
 #enterpriseContent { width: 1358px ; height: 1314px; margin: auto 50%; left: -679px; position: absolute; background: url(../img/enterpriseBackground.png ) no-repeat 0 0 }
+
+#middle { width: 958px; height: 1045px; margin-left: 182px; margin-top: 19px; position: relative }
+
+	#middle #left { 
+		height: 231px; width: 180px; float: left; padding-left: 44px; padding-top: 150px;
+		font-family: Signika, sans-serif; font-weight: lighter; font-size: 17px; color: #ffffff
+	}
+
+	#middle #right { height: 875px; width: 734px; float: left }	
