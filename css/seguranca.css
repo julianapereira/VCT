@@ -10,11 +10,11 @@
 			#middle #security #securityBox01 { width: 222px; height: 498px;  float: left }
 				#middle #security #security01 { width: 222px; height: 105px; padding-bottom: 16px; line-height: 22px; 
 												font-family: Signika, sans-serif; font-weight: lighter; font-size: 14px; color: #a6a6a6 }
-				#middle #security #security02 { width: 222px; height: 138px; line-height: 22px; 
+				#middle #security #security02 { width: 222px; height: 136px; padding-top: 2px; line-height: 22px; 
 												font-family: Signika, sans-serif; font-weight: lighter; font-size: 14px; color: #4ab2cb }
-				#middle #security #security03 { width: 222px; height: 119px; line-height: 22px;
+				#middle #security #security03 { width: 222px; height: 112px; padding-top: 7px; line-height: 22px;
 												font-family: Signika, sans-serif; font-weight: lighter; font-size: 14px; color: #a6a6a6 }
-				#middle #security #security04 { width: 222px; height: 120px; line-height: 22px;
+				#middle #security #security04 { width: 222px; height: 112px; padding-top: 8px; line-height: 22px;
 												font-family: Signika, sans-serif; font-weight: lighter; font-size: 14px; color: #4ab2cb }
 			#middle #security #securityBox02 { width: 270px; height: 498px;  float: left }
 				#middle #security #security05 { width: 270px; height: 138px; line-height: 22px;
