@@ -4,6 +4,10 @@
 
 
 #middle { width: 1358px; height: 868px; position: relative; padding-top: 19px }
+	#middle #pdf a { 
+		width: 62px; height: 75px;  margin-left: -106px; margin-top: 696px; float: left; 
+		font-family: Signika, sans-serif; font-weight: lighter; font-size: 11px; color: #32879c
+	 }
 
 	#middle #left { 
 		width: 323px; height: 630px; float: left; margin-left: 233px;
