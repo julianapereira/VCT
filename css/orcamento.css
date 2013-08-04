@@ -1,11 +1,11 @@
 
-#budgetContent { width: 1358px ; height: 1314px; margin: auto 50%; left: -679px; position: absolute; background: url(../img/budgetBackground.png ) no-repeat 0 0 }
 
+#budgetContent { width: 1358px ; height: 1314px; margin: auto 50%; left: -679px; position: absolute; background: url(../img/budgetBackground.png ) no-repeat 0 0 }
 
 
 #middle { width: 1358px; height: 868px; position: relative; padding-top: 19px }
 	#middle #pdf a { 
-		width: 62px; height: 75px;  margin-left: -106px; margin-top: 696px; float: left; 
+		width: 62px; height: 62px; text-decoration: none; margin-left: -106px; line-height: 12px; margin-top: 696px; float: left; 
 		font-family: Signika, sans-serif; font-weight: lighter; font-size: 11px; color: #32879c
 	 }
 
