@@ -5,7 +5,7 @@
 
 /*  Middle  */
 
-	#middle { width: 1358px; height: 884px; position: relative }
+	#middle { width: 1358px; height: 1028px; position: relative }
 		#middle #security { width: 492px; height: 718px; margin-left: 217px; margin-top: 20px; float: left }
 			#middle #security #securityBox01 { width: 222px; height: 498px;  float: left }
 				#middle #security #security01 { width: 222px; height: 105px; padding-bottom: 16px; line-height: 22px; 
