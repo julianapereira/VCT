@@ -2,7 +2,7 @@
 
 /* Fonts */
 
-@import url(http://fonts.googleapis.com/css?family=Signika);
+@import url(http://fonts.googleapis.com/css?family=Signika:400,300,600,700);
 
 /* Page's  structure */
 
@@ -21,7 +21,7 @@ body { background-color: #ffffff }
 	#header #logo { width: 161px; height: 130px; float: left }
 		#header #logo img { margin-left: 27px; margin-top: 34px }
 	#header #menu { width: 751px; height: 130px; float: left }
-		#menu a { font-family: Signika, sans-serif; font-weight: normal; font-size: 12px; color: #666666 }
+		#menu a { font-family: Signika, sans-serif; font-weight: 400; font-size: 12px; color: #666666 }
 		
 		#header #menu .selected { background: url("../img/imgMenuSelected.png") no-repeat }
 		#header #menu .selected a { color: #00a6c9 }

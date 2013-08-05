@@ -9,47 +9,47 @@
 		#middle #security { width: 492px; height: 718px; margin-left: 217px; margin-top: 20px; float: left }
 			#middle #security #securityBox01 { width: 222px; height: 498px;  float: left }
 				#middle #security #security01 { width: 222px; height: 105px; padding-bottom: 16px; line-height: 22px; 
-												font-family: Signika, sans-serif; font-weight: lighter; font-size: 14px; color: #a6a6a6 }
+												font-family: Signika, sans-serif; font-weight: 300; font-size: 14px; color: #a6a6a6 }
 				#middle #security #security02 { width: 222px; height: 136px; padding-top: 2px; line-height: 22px; 
-												font-family: Signika, sans-serif; font-weight: lighter; font-size: 14px; color: #4ab2cb }
+												font-family: Signika, sans-serif; font-weight: 300; font-size: 14px; color: #4ab2cb }
 				#middle #security #security03 { width: 222px; height: 112px; padding-top: 7px; line-height: 22px;
-												font-family: Signika, sans-serif; font-weight: lighter; font-size: 14px; color: #a6a6a6 }
+												font-family: Signika, sans-serif; font-weight: 300; font-size: 14px; color: #a6a6a6 }
 				#middle #security #security04 { width: 222px; height: 112px; padding-top: 8px; line-height: 22px;
-												font-family: Signika, sans-serif; font-weight: lighter; font-size: 14px; color: #4ab2cb }
+												font-family: Signika, sans-serif; font-weight: 300; font-size: 14px; color: #4ab2cb }
 			#middle #security #securityBox02 { width: 270px; height: 498px;  float: left }
 				#middle #security #security05 { width: 270px; height: 138px; line-height: 22px;
- 												font-family: Signika, sans-serif; font-weight: lighter; font-size: 14px; color: #a6a6a6 }
+ 												font-family: Signika, sans-serif; font-weight: 300; font-size: 14px; color: #a6a6a6 }
 				#middle #security #security06 { width: 270px; height: 118px; padding-top: 8px; line-height: 22px;
-												font-family: Signika, sans-serif; font-weight: lighter; font-size: 14px; color: #4ab2cb }
+												font-family: Signika, sans-serif; font-weight: 300; font-size: 14px; color: #4ab2cb }
 				#middle #security #security07 { width: 270px; height: 116px; padding-top: 3px; line-height: 22px;   
-												font-family: Signika, sans-serif; font-weight: lighter; font-size: 14px; color: #a6a6a6 }
+												font-family: Signika, sans-serif; font-weight: 300; font-size: 14px; color: #a6a6a6 }
 				#middle #security #security08 { width: 270px; height: 113px; padding-top: 2px; line-height: 22px;
-												font-family: Signika, sans-serif; font-weight: lighter; font-size: 14px; color: #4ab2cb }
+												font-family: Signika, sans-serif; font-weight: 300; font-size: 14px; color: #4ab2cb }
 
-			#middle #security #securityTittle { width: 492px; height: 37px; padding-top: 12px;float: left;
-												font-family: Signika, sans-serif; font-weight: semibold; font-size: 20px; color: #ffffff }
+			#middle #security #securityTittle { width: 492px; height: 25px; padding-top: 24px;float: left;
+												font-family: Signika, sans-serif; font-weight: 600; font-size: 20px; color: #ffffff }
 			#middle #security #securityText  { width: 492px; height: 168px; float: left; line-height: 27px; 
-												font-family: Signika, sans-serif; font-weight: lighter; font-size: 16px; color: #4ab2cb }
+												font-family: Signika, sans-serif; font-weight: 300; font-size: 16px; color: #4ab2cb }
 
 		#middle #bracket { width: 381px; height: 764px; margin-top: 20px; float:left  }
 			#middle #bracket #bracketBox01 { width: 211px; height: 544px;  float: left }
 				#middle #bracket #bracket01 { width: 211px; height: 121px; line-height: 22px; 
-												font-family: Signika, sans-serif; font-weight: lighter; font-size: 14px; color: #4299ae }
+												font-family: Signika, sans-serif; font-weight: 300; font-size: 14px; color: #4299ae }
 				#middle #bracket #bracket02 { width: 211px; height: 189px; padding-top: 2px; line-height: 22px;  
-												font-family: Signika, sans-serif; font-weight: lighter; font-size: 14px; color: #073565 }
+												font-family: Signika, sans-serif; font-weight: 300; font-size: 14px; color: #073565 }
 				#middle #bracket #bracket03 { width: 211px; height: 232px; line-height: 23px;
-												font-family: Signika, sans-serif; font-weight: lighter; font-size: 14px; color: #4299ae }
+												font-family: Signika, sans-serif; font-weight: 300; font-size: 14px; color: #4299ae }
 
 			#middle #bracket #bracketBox02 { width: 170px; height: 330px;  float: left; }
 				#middle #bracket #bracket04 { width: 170px; height: 170px; line-height: 23px; 
-												font-family: Signika, sans-serif; font-weight: lighter; font-size: 14px; color: #4299ae }
+												font-family: Signika, sans-serif; font-weight: 300; font-size: 14px; color: #4299ae }
 				#middle #bracket #bracket05 { width: 170px; height: 160px; line-height: 23px;
-												font-family: Signika, sans-serif; font-weight: lighter; font-size: 14px; color: #073565 }
+												font-family: Signika, sans-serif; font-weight: 300; font-size: 14px; color: #073565 }
 
-			#middle #bracket #bracketTittle  { width: 381px; height: 41px; padding-top: 12px; float: left; 
-												font-family: Signika, sans-serif; font-weight: semibold; font-size: 20px; color: #ffffff } 
+			#middle #bracket #bracketTittle  { width: 381px; height: 29px; padding-top: 24px; float: left; 
+												font-family: Signika, sans-serif; font-weight: 600; font-size: 20px; color: #ffffff } 
 			#middle #bracket #bracketText  { width: 381px; height: 167px; float: left; line-height: 21px;  
-			 									font-family: Signika, sans-serif; font-weight: lighter; font-size: 14px; color: #214972} 
+			 									font-family: Signika, sans-serif; font-weight: 300; font-size: 14px; color: #214972} 
 
 			
 			

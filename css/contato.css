@@ -8,12 +8,12 @@
 
 	#middle #left { 
 		margin-left: 232px; width: 337px; height: 606px; float:left; padding-top: 25px; padding-left: 43px;
-		font-family: Signika, sans-serif; font-size: 27px; color: #eaeaea
+		font-family: Signika, sans-serif; font-weight: 600; letter-spacing: 3px; font-size: 27px; color: #eaeaea
 	 }
 
 	#middle #right { 
 		width: 422px; height: 717px; float: left; padding-left: 58px; padding-top: 42px;
-		font-family: Signika, sans-serif; font-size: 13px; font-weight: lighter
+		font-family: Signika, sans-serif; font-size: 13px; font-weight: 300
 	}
 
 
@@ -26,20 +26,20 @@
 		#middle #right .canvas_mensagem { height: 121px; padding-top:10px }
 		#middle #right textarea { resize: none; border: none; background: none; margin-top: 5px; width: 341px; height: 84px; outline: none; padding: 6px; overflow: auto; color: #4299ae }
 		
-		#middle #right #enviar { width: 80px; height: 24px; background: none; border: none; outline: none; cursor: pointer; margin-left: 296px; color: #4db3cc; text-align: center; padding-top: 10px }
+		#middle #right #enviar { width: 80px; height: 24px; background: none; border: none; outline: none; font-family: Signika, sans-serif; font-size: 12px; font-weight: 300; cursor: pointer; margin-left: 296px; color: #4db3cc; text-align: center; padding-top: 10px }
 		
 
-		#middle #right .obrigatorio { color: #4299ae; font-size: 9px }
+		#middle #right .obrigatorio { margin-top: -9px; color: #4299ae; font-size: 9px; font-family: Signika, sans-serif; font-style: italic ;font-weight: 300 }
 
 		#middle #right .container_message { 
 			position: absolute; top: 56px; left: 650px; background: url("../img/messageBox.png") no-repeat; height: 449px; width: 413px;
-			color: #4299ae; font-size: 17px; font-family: Signika, sans-serif; font-weight: lighter
+			color: #4299ae; font-size: 17px; font-family: Signika, sans-serif; font-weight: 300
 		}
 			#middle #right .closeButton { height: 27px; width: 30px; margin-left: 362px; margin-top: 20px; cursor: pointer }
 			#middle #right .containerMessage { margin-top: 142px; text-align: center }
 
-		#middle #right #rightBottom { width: 403px; height: 222px; margin-top: 25px; font-size: 13px; color: #4299ae }
+		#middle #right #rightBottom { width: 403px; height: 222px; letter-spacing: 1px; margin-top: 25px; font-size: 13px; color: #4299ae }
 			#middle #right #rightBottom span { color: #073565 }
-			#middle #right #rightBottom .bold { font-weight: bold }
+			#middle #right #rightBottom .bold { font-weight: 600 }
 			#middle #right #rightBottom .bottomspace { margin-bottom: 2px }
 

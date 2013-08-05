@@ -6,7 +6,7 @@
 
 	#middle #left { 
 		height: 231px; width: 180px; float: left; padding-left: 44px; padding-top: 150px;
-		font-family: Signika, sans-serif; font-weight: lighter; font-size: 17px; color: #ffffff
+		font-family: Signika, sans-serif; font-weight: 600; font-size: 17px; color: #ffffff
 	}
 
 	#middle #right { height: 844px; width: 702px; float: left; padding-top: 33px; padding-left: 32px }	
@@ -18,6 +18,6 @@
 
 	#middle #right #rightBottom { 
 		height: 414px; font-size: 14px; color: #0093c9; text-align: justify;
-		font-family: Signika, sans-serif; font-weight: lighter; letter-spacing: 1px; line-height: 18px
+		font-family: Signika, sans-serif; font-weight: 300; letter-spacing: 1px; line-height: 18px
 	}
 	#middle #right #rightBottom p { margin-bottom: 23px }

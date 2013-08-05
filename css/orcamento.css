@@ -6,13 +6,13 @@
 #middle { width: 1358px; height: 868px; position: relative; padding-top: 19px }
 	#middle #pdf a { 
 		width: 62px; height: 62px; text-decoration: none; margin-left: -106px; line-height: 12px; margin-top: 696px; float: left; 
-		font-family: Signika, sans-serif; font-weight: lighter; font-size: 11px; color: #32879c
+		font-family: Signika, sans-serif; font-weight: 300; font-size: 11px; color: #32879c
 	 }
 
 	#middle #left { 
 		width: 323px; height: 630px; float: left; margin-left: 233px;
 		padding-top: 153px; padding-left: 56px;
-		font-family: Signika, sans-serif; font-size: 27px; color: #eaeaea
+		font-family: Signika, sans-serif; letter-spacing: 4px ;font-weight: 600;font-size: 27px; color: #eaeaea
 	 }
 
 	#middle #right { 
@@ -100,7 +100,7 @@
 
 		#middle #right .container_message { 
 			position: absolute; top: 46px; left: 650px; background: url("../img/imgMessageBoxBudget.png") no-repeat; height: 695px; width: 403px;
-			color: #4299ae; font-size: 17px; font-family: Signika, sans-serif; font-weight: lighter
+			color: #4299ae; font-size: 17px; font-family: Signika, sans-serif; font-weight: 300
 		}
 			#middle #right .closeButton { height: 27px; width: 30px; margin-left: 362px; margin-top: 20px; cursor: pointer }
 			#middle #right .containerMessage { margin-top: 142px; text-align: center }		
