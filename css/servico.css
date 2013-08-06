@@ -30,11 +30,21 @@
 	#middle #bureauMedia { width: 697px; height: 538px; margin-top: 22px; float:left; padding-left: 45px; padding-top: 43px }
 	#middle .menu { height: 82px; width: 602px; margin-top:25px }
 	
-	#middle .menu .thumb { cursor: pointer; width: 95px; height: 75px; border: 3px solid #c3c3c3; float: left; overflow: hidden; margin-left: 1px; opacity: 0.5 }
-	#middle .menu .selected { border: 3px solid white; opacity:1 }
+	#middle .menu .thumb { cursor: pointer; width: 99px; height: 79px; float: left; margin-right: 4px; margin-left:2px }
 	
 	#middle .menu .thumbimage { margin-left: 4px }
-	#middle .menu .thumbvideo { margin-left: 24px }
+	#middle .menu .thumbvideo { margin-left: 18px }
+
+	#imgSmallService01 .thumb { background: url("../img/imgSmallService01.png") no-repeat }
+	#imgSmallService02 .thumb { background: url("../img/imgSmallService02.png") no-repeat }
+	#imgSmallService03 .thumb { background: url("../img/imgSmallService03.png") no-repeat }
+	#imgSmallService04 .thumb { background: url("../img/imgSmallService04.png") no-repeat }
+
+	#imgSmallService01 .selected { background: url("../img/imgSmallServiceSelected01.png") no-repeat }
+	#imgSmallService02 .selected { background: url("../img/imgSmallServiceSelected02.png") no-repeat }
+	#imgSmallService03 .selected { background: url("../img/imgSmallServiceSelected03.png") no-repeat }
+	#imgSmallService04 .selected { background: url("../img/imgSmallServiceSelected04.png") no-repeat }
+
 
 	#middle #bureauBox { width: 697px; height: 129px; float:left }
 		#middle #bureauBox01 { width: 131px; height: 99px; padding-left: 85px; padding-right: 39px; padding-top: 20px; float: left;

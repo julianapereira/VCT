@@ -14,8 +14,17 @@
 	#middle #right #rightUp { height: 460px }
 		#middle .image { width: 567px; height: 392px; float: left }
 		#middle .menu { width: 88px; height: 376px; float: left; margin-left: 16px; padding-top: 16px }
-		#middle .thumb { cursor: pointer; width: 77px; height: 59px; margin-bottom: 7px }
+		
+		#middle .thumb { cursor: pointer; width: 77px; height: 60px; margin-bottom: 7px }
 		#middle .thumbvideos { margin-top: 47px }
+
+		#imgSmallEnterprise01 .thumb { background: url("../img/imgSmallEnterprise01.png") no-repeat }
+		#imgSmallEnterprise02 .thumb { background: url("../img/imgSmallEnterprise02.png") no-repeat }
+		#imgSmallEnterprise03 .thumb { background: url("../img/imgSmallEnterprise03.png") no-repeat }
+
+		#imgSmallEnterprise01 .selected { background: url("../img/imgSmallEnterpriseSelected01.png") no-repeat }
+		#imgSmallEnterprise02 .selected { background: url("../img/imgSmallEnterpriseSelected02.png") no-repeat }
+		#imgSmallEnterprise03 .selected { background: url("../img/imgSmallEnterpriseSelected03.png") no-repeat }
 
 	#middle #right #rightBottom { 
 		height: 414px; font-size: 14px; color: #0093c9; text-align: justify;
