@@ -12,7 +12,10 @@
 	#middle #right { height: 844px; width: 702px; float: left; padding-top: 33px; padding-left: 32px }	
 
 	#middle #right #rightUp { height: 460px }
-		#middle .image { width: 567px; height: 392px; float: left }
+		
+		#middle .image { width: 567px; height: 392px; float: left; position: relative }
+			#middle .image .container { position: absolute }
+
 		#middle .menu { width: 88px; height: 376px; float: left; margin-left: 16px; padding-top: 16px }
 		
 		#middle .thumb { cursor: pointer; width: 77px; height: 60px; margin-bottom: 7px }
