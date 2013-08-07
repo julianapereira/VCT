@@ -44,8 +44,17 @@ var Index = {
         * Utilizado para mudar o bullet do banner depois que o evento do cycle acontecer.
         */
     	onBefore: function(){
-    		$('.bullet_selected').removeClass("bullet_selected");
-    		$(this.alt).addClass("bullet_selected");
+
+            $('.bullet_selected').css('background-image', '');
+            $('.bullet_selected').removeClass("bullet_selected");
+
+            $(this.alt).addClass("bullet_selected");
+            $(this.alt).fadeTo('slow', 0.0, function()
+            {
+                $(this).css('background-image', 'url("img/bullet_selected.png")');
+            }).delay(50).fadeTo('slow', 1);
+
+
     	}
     
     }
