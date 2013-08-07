@@ -13,7 +13,7 @@
 	#middle #bullets_canvas { width: 1166px; height: 18px }
 		#middle #bullets { margin-left: 426px; height: 10px; margin-top: 8px }
 			#middle .bullet { width: 15px; height: 12px; float: left; margin-right: 6px }
-			#middle .bullet_selected { background-color: #006cdd }
+			#middle .bullet_selected { background: url("../img/bullet_selected.png") no-repeat }
 
 	#middle #middleContent { width: 1166px; height: 488px }
 
