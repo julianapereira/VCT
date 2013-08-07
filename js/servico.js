@@ -46,9 +46,9 @@ var Servico = {
             $('.thumb').removeClass("selected");
             $(menuElement).addClass("selected");
 
-            $('.container').hide();
+            $('.container').fadeOut('slow');
             var container = $(menuElement).data("container");
-            $(container).show();
+            $(container).fadeIn('slow');
 
         }
     
