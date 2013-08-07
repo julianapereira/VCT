@@ -4,7 +4,7 @@
 
 #middle { width: 1166px; height: 864px; margin-left: 191px; position: relative }
 	
-	#middle #randomImage { width: 1166px; height: 350px; margin-top: 22px }
+	#middle #randomImage { width: 914px; height: 350px; margin-top: 22px; overflow: hidden; margin-left: 1px }
 	#middle #arrows { width: 915px; height: 50px; position: absolute; top: 167px; z-index:999 }
 		#middle #arrows .arrow { cursor: pointer }
 		#middle #arrows .arrow_left { margin-left: 20px; float: left }
@@ -17,14 +17,17 @@
 	#middle #middleContent { width: 1166px; height: 488px }
 
 	#middle #media { width: 590px; height: 488px; float: left }
-		#middle #media #mediaTittle { width: 590px; height: 311px }
+		
+		#media #playerButton { float: left; width: 112px; height: 113px; margin-top: 240px; cursor: pointer }
+		
+		#middle #media #mediaTittle { width: 478px; height: 311px; float: left }
 
 		#middle #media #mediaTittle #mediaPhrase { 
-				width: 221px; height: 69px; padding-left: 122px; padding-top: 240px; letter-spacing: 1px; line-height: 18px;
+				width: 332px; height: 69px; padding-left: 11px; padding-top: 240px; letter-spacing: 1px; line-height: 18px;
 				font-family: Signika, sans-serif; font-weight: 300; font-size: 13px; color: #ffffff
 		}
 
-		#middle #media #playerTittle { width: 468px; height: 173px; padding-left: 122px; padding-top: 8px; letter-spacing: 1px }
+		#middle #media #playerTittle { width: 368px; height: 173px; padding-left: 122px; padding-top: 8px; letter-spacing: 1px }
 			#middle #media #playerTittle a { font-family: Signika, sans-serif; font-weight: 300; font-size: 13px; color: #1046d6 }
 	
 
@@ -39,5 +42,7 @@
 
 			#middle #budgetBox #budgetTittle #budgetBoxPhrase02 { 
 				width: 279px; height: 18px; padding-top: 12px; padding-left: 43px; letter-spacing: 1px;
-				font-family: Signika, sans-serif; font-weight: 300; font-size: 13.65px; color: #ffffff
+				font-family: Signika, sans-serif; font-weight: 300; font-size: 13.65px
 			}
+
+			#budgetBoxPhrase02 a { text-decoration: none; color: #ffffff }
