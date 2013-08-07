@@ -14,7 +14,8 @@
 			width: 189px; height: 670px; margin-left: 199px;
 			font-family: Signika, sans-serif; color: #ffffff }
 
-			#middle #card #cardMenu #cardTittle { height: 70px; padding-top: 56px; font-weight: 600; font-size: 17px; padding-left: 23px }
+			#middle #card #cardMenu #cardTittle { height: 70px; padding-top: 56px; font-weight: 400; font-size: 17px; 
+				padding-left: 23px; letter-spacing: 0.6px; line-height: 19px }
 
 			#middle #card #cardMenu .item { font-size: 13px; cursor: pointer; border-left: 15px solid transparent; padding-left: 8px }
 			#middle #card #cardMenu .itemSelected { border-left: 15px solid #00a2c7; color: #00a2c7 }
