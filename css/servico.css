@@ -27,8 +27,10 @@
 		#middle #bureau #bureau07 { width: 213px; height: 46px;  padding-left: 41px; padding-top: 7px;
 										font-family: Signika, sans-serif; font-weight: 300; font-size: 14px; color: #aab7c7 }
 
-	#middle #bureauMedia { width: 697px; height: 538px; margin-top: 22px; float:left; padding-left: 45px; padding-top: 43px }
-	#middle .menu { height: 82px; width: 602px; margin-top:25px }
+	#middle #bureauMedia { width: 697px; height: 424px; margin-top: 22px; float:left; padding-left: 45px; padding-top: 43px; position: relative }
+	#middle #bureauMedia .container { position: absolute }
+
+	#middle .menu { height: 117px; width: 697px; float: left; padding-left:45px }
 	
 	#middle .menu .thumb { cursor: pointer; width: 99px; height: 79px; float: left; margin-right: 4px; margin-left:2px }
 	
@@ -52,6 +54,6 @@
 		#middle #bureauBox02 { width: 163px; height: 84px; float:left; padding-top: 23px; 
 								font-family: Signika, sans-serif; font-weight: 300; font-size: 13px; color: #2b8fa8 }
 
-		#middle #bureauBox03 { width: 202px; height: 84px; float:left; padding-left: 17px; padding-top: 23px;
+		#middle #bureauBox03 { width: 204px; height: 84px; float:left; padding-left: 12px; padding-top: 23px;
 								font-family: Signika, sans-serif; font-weight: 300; font-size: 13px; color: #2b8fa8 }
 
