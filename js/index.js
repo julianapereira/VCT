@@ -52,7 +52,7 @@ var Index = {
             $(this.alt).fadeTo('slow', 0.0, function()
             {
                 $(this).css('background-image', 'url("img/bullet_selected.png")');
-            }).delay(50).fadeTo('slow', 1);
+            }).delay(10).fadeTo('slow', 1);
 
 
     	}
