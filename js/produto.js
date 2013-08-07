@@ -46,7 +46,7 @@ var Produto = {
             $('.item').removeClass("itemSelected");
             $(menuElement).addClass("itemSelected");
 
-            $('.container').hide();
+            $('.container').fadeOut('slow');
             var container = $(menuElement).data("container");
             $(container).fadeIn("slow");
 

@@ -32,4 +32,5 @@
 
 	#middle #cardImage { width: 972px; height: 884px; float: left}
 
-		#middle #cardImage #boxCardImage { width: 608px; height: 521px; margin-left: 68px; margin-top: 89px }
+		#middle #cardImage #boxCardImage { width: 608px; height: 521px; margin-left: 68px; margin-top: 89px; position: relative }
+			#middle #cardImage #boxCardImage img { position: absolute }
