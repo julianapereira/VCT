@@ -18,6 +18,7 @@
 				padding-left: 23px; letter-spacing: 0.6px; line-height: 19px }
 
 			#middle #card #cardMenu .item { font-size: 13px; cursor: pointer; border-left: 15px solid transparent; padding-left: 8px }
+			#middle #card #cardMenu .item:hover { color: #0c687f; border-left: 15px solid #0c687f } 
 			#middle #card #cardMenu .itemSelected { border-left: 15px solid #00a2c7; color: #00a2c7 }
 			
 			#middle #card #cardMenu #giftCard { padding-top: 16px; height: 50px; font-weight: 300; font-size: 13px }

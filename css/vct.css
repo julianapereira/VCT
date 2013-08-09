@@ -33,6 +33,8 @@ body { background-color: #ffffff }
 		#header #menu #menuOrcamento { width: 82px; height: 23px;  padding-left: 7px; padding-top: 8px; float: left; margin-left: 5px; margin-top: 95px }
 		#header #menu #menuContato { width: 72px; height: 23px; padding-left: 14px; margin-top: 95px; float: left; padding-top: 8px; margin-left: 8px }
 
+		#menuProduto:hover, #menuServico:hover, #menuEmpresa:hover, #menuSeguranca:hover, #menuOrcamento:hover, #menuContato:hover { background: url("../img/imgMenuHover.png") no-repeat }
+
 /* Div Footer  */
 
 #footer { width: 1162px; height: 296px; margin-left: 207px; padding-top: 54px }
