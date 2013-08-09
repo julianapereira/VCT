@@ -1,6 +1,6 @@
 /* Div Middle  */
 
-#indexContent { width: 1358px ; height: 1314px; margin: auto 50%; left: -679px; position: absolute; background: url(../img/indexBackground.png ) no-repeat 0 0 }
+#indexContent { background: url(../img/indexBackground.png ) no-repeat 0 0 }
 
 #middle { width: 1166px; height: 864px; margin-left: 191px; position: relative }
 	

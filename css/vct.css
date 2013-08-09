@@ -10,10 +10,9 @@
 a { text-decoration:none }
 img { border: none }
 
-body { background-color: #ffffff }
+body { background-image: url("../img/background.png") }
 
-#background { width: 1358px; height: 1314px; position:absolute; left:-679px; margin: auto 50%  }
-
+.background { width: 1358px; height: 1314px; position:absolute; left:-679px; margin: auto 50%  }
 
 /* Div Header */
 
