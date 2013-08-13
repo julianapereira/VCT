@@ -39,7 +39,7 @@ body { background-image: url("../img/background.png") }
 #footer { width: 1162px; height: 296px; margin-left: 207px; padding-top: 54px }
 	
 	#footer #footerTittle { 
-		width: 499px; height: 12px; padding-left: 285px; float:left;
+		width: 464px; height: 12px; padding-left: 264px; float:left;
 		font-family: Helvetica, Arial, sans-serif; font-weight: lighter; font-size: 11.65px; color: #0073ef
 	}
 
