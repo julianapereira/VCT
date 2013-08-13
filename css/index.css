@@ -2,7 +2,7 @@
 
 #indexContent { background: url(../img/indexBackground.png ) no-repeat 0 0 }
 
-#middle { width: 1166px; height: 864px; margin-left: 191px; position: relative }
+#middle { width: 1166px; height: 864px; margin-left: 221px; position: relative }
 	
 	#middle #randomImage { width: 914px; height: 350px; margin-top: 22px; overflow: hidden; margin-left: 1px }
 	#middle #arrows { width: 915px; height: 50px; position: absolute; top: 167px; z-index:999 }

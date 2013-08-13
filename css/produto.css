@@ -6,9 +6,9 @@
 
 /*  Middle  */
 
-#middle { width: 1358px; height: 886px; position: relative }
+#middle { width: 1358px; height: 886px; margin-left: 30px; position: relative }
 
-	#middle #card { width: 386px; height: 884px;  float: left }
+	#middle #card { width: 386px; height: 884px; float: left }
 
 		#middle #card #cardMenu { 
 			width: 189px; height: 670px; margin-left: 199px;
