@@ -19,24 +19,24 @@ body { background-image: url("../img/background.png") }
 #header { width: 1168px; height: 130px; padding-left: 190px }
 	#header #logo { width: 161px; height: 130px; margin-left: 70px; float: left }
 		#header #logo img { margin-left: 27px; margin-top: 34px }
-	#header #menu { width: 737px; height: 130px; padding-left: 14px; float: left }
+	#header #menu { width: 737px; height: 130px; float: left }
 		#menu a { font-family: Signika, sans-serif; font-weight: 400; font-size: 12px; color: #666666 }
 		
 		#header #menu .selected { background: url("../img/imgMenuSelected.png") no-repeat }
 		#header #menu .selected a { color: #00a6c9 }
 
-		#header #menu #menuProduto { width: 72px; height: 23px; margin-left: 55px; margin-top: 95px; padding-top: 8px; padding-left: 10px; float: left }
-		#header #menu #menuServico { width: 68px; height: 23px; padding-left: 14px; padding-top: 8px; margin-top: 95px; float: left; margin-left: 15px }
-		#header #menu #menuEmpresa { width: 68px; height: 23px; padding-left: 24px; margin-top: 95px; float: left; padding-top: 8px }
-		#header #menu #menuSeguranca { width: 74px; height: 23px; padding-left: 26px; margin-top: 95px; float: left; padding-top: 8px; }
-		#header #menu #menuOrcamento { width: 68px; height: 23px;  padding-left: 31px; padding-top: 8px; float: left; margin-left: 5px; margin-top: 95px }
-		#header #menu #menuContato { width: 48px; height: 23px; padding-left: 46px; margin-top: 95px; float: left; padding-top: 8px }
+		#header #menu #menuProduto { width: 74px; height: 23px; margin-left: 67px; margin-top: 95px; padding-top: 8px; padding-left: 10px; float: left }
+		#header #menu #menuServico { width: 74px; height: 23px; margin-left: 20px; padding-left: 14px; padding-top: 8px; margin-top: 95px; float: left }
+		#header #menu #menuEmpresa { width: 74px; height: 23px;  margin-left: 10px; padding-left: 16px; margin-top: 95px; float: left; padding-top: 8px }
+		#header #menu #menuSeguranca { width: 74px; height: 23px; margin-left: 20px; padding-left: 8px; margin-top: 95px; float: left; padding-top: 8px; }
+		#header #menu #menuOrcamento { width: 74px; height: 23px;  margin-left: 20px; padding-left: 8px; padding-top: 8px; float: left; margin-top: 95px }
+		#header #menu #menuContato { width: 74px; height: 23px; margin-left: 22px; padding-left: 15px; margin-top: 95px; float: left; padding-top: 8px }
 
 		#menuProduto:hover, #menuServico:hover, #menuEmpresa:hover, #menuSeguranca:hover, #menuOrcamento:hover, #menuContato:hover { background: url("../img/imgMenuHover.png") no-repeat }
 
 /* Div Footer  */
 
-#footer { width: 1162px; height: 296px; margin-left: 207px; padding-top: 54px }
+#footer { width: 1162px; height: 242px; margin-left: 207px; padding-top: 54px }
 	
 	#footer #footerTittle { 
 		width: 464px; height: 12px; padding-left: 264px; float:left;

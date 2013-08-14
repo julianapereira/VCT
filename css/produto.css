@@ -11,11 +11,11 @@
 	#middle #card { width: 386px; height: 884px; float: left }
 
 		#middle #card #cardMenu { 
-			width: 189px; height: 670px; margin-left: 199px;
+			width: 189px; height: 670px; margin-left: 187px;
 			font-family: Signika, sans-serif; color: #ffffff }
 
 			#middle #card #cardMenu #cardTittle { height: 70px; padding-top: 56px; font-weight: 400; font-size: 17px; 
-				padding-left: 23px; letter-spacing: 0.6px; line-height: 19px }
+				padding-left: 22px; letter-spacing: 0.6px; line-height: 19px }
 
 			#middle #card #cardMenu .item { font-size: 13px; cursor: pointer; border-left: 15px solid transparent; padding-left: 8px }
 			#middle #card #cardMenu .item:hover { color: #0c687f; border-left: 15px solid #0c687f } 
@@ -34,5 +34,5 @@
 
 	#middle #cardImage { width: 972px; height: 884px; float: left}
 
-		#middle #cardImage #boxCardImage { width: 608px; height: 521px; margin-left: 68px; margin-top: 89px; position: relative }
+		#middle #cardImage #boxCardImage { width: 608px; height: 521px; margin-left: 58px; margin-top: 89px; position: relative }
 			#middle #cardImage #boxCardImage img { position: absolute }
