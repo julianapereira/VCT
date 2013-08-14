@@ -7,35 +7,35 @@
 
 #middle { width: 1358px; height: 884px; position: relative }
 
-	#middle #bureau { width: 254px; height: 652px; margin-left: 186px; margin-top: 64px; float: left }
-		#middle #bureau #bureauTittle { width: 213px; height: 20px; padding-left: 41px; 
+	#middle #bureau { width: 214px; height: 652px; margin-left: 204px; margin-top: 64px; float: left; padding-left: 40px }
+		#middle #bureau #bureauTittle { width: 213px; height: 20px; 
 		 								font-family: Signika, sans-serif; font-weight: 600; letter-spacing: 0.6px; line-height: 19px;font-size: 16px; color: #ffffff }
-		#middle #bureau #bureauText { width: 174px; height: 96px ; padding-right: 39px; padding-left: 41px; padding-top: 11px; letter-spacing: 0.2px; 
+		#middle #bureau #bureauText { width: 174px; height: 96px ; padding-right: 39px; padding-top: 11px; letter-spacing: 0.2px; 
 										font-family: Signika, sans-serif; font-weight: 300; font-size: 14px; color: #4db3cc }
-		#middle #bureau #bureau01 { width: 213px; height: 54px; padding-left: 41px; padding-top: 30px;
+		#middle #bureau #bureau01 { width: 213px; height: 54px; padding-top: 30px;
 										font-family: Signika, sans-serif; font-weight: 300; font-size: 14px; color: #aab7c7 }
-		#middle #bureau #bureau02 { width: 213px; height: 36px; padding-left: 41px; padding-top: 14px;
+		#middle #bureau #bureau02 { width: 213px; height: 36px; padding-top: 14px;
 										font-family: Signika, sans-serif; font-weight: 300; font-size: 14px; color: #aab7c7}
-		#middle #bureau #bureau03 { width: 174px; height: 132px; padding-left: 41px; padding-right: 39px; padding-top: 9px;
+		#middle #bureau #bureau03 { width: 174px; height: 132px; padding-right: 39px; padding-top: 9px;
 										font-family: Signika, sans-serif; font-weight: 300; font-size: 14px; color: #aab7c7 }
-		#middle #bureau #bureau04 { width: 213px; height: 61px; padding-left: 41px; padding-top: 5px;
+		#middle #bureau #bureau04 { width: 213px; height: 61px; padding-top: 5px;
 		  								font-family: Signika, sans-serif; font-weight: 300; font-size: 14px; color: #aab7c7 }
-		#middle #bureau #bureau05 { width: 183px; height: 79px; padding-left: 41px; padding-right: 30px; padding-top: 5px;
+		#middle #bureau #bureau05 { width: 183px; height: 79px; padding-right: 30px; padding-top: 5px;
 										font-family: Signika, sans-serif; font-weight: 300; font-size: 14px; color: #aab7c7 }
-		#middle #bureau #bureau06 { width: 187px; height: 40px; padding-left: 41px; padding-right: 27px; padding-top: 7px;
+		#middle #bureau #bureau06 { width: 187px; height: 40px; padding-right: 27px; padding-top: 7px;
 										font-family: Signika, sans-serif; font-weight: 300; font-size: 14px; color: #aab7c7 }
-		#middle #bureau #bureau07 { width: 213px; height: 46px;  padding-left: 41px; padding-top: 7px;
+		#middle #bureau #bureau07 { width: 213px; height: 46px;  padding-top: 7px;
 										font-family: Signika, sans-serif; font-weight: 300; font-size: 14px; color: #aab7c7 }
 
-	#middle #bureauMedia { width: 697px; height: 424px; margin-top: 22px; float:left; padding-left: 45px; padding-top: 43px; position: relative }
+	#middle #bureauMedia { width: 697px; height: 424px; margin-top: 21px; float:left; padding-left: 44px; padding-top: 43px; position: relative }
 	#middle #bureauMedia .container { position: absolute }
 
-	#middle .menu { height: 117px; width: 697px; float: left; padding-left:45px }
+	#middle .menu { height: 117px; width: 697px; float: left; padding-left:43px }
 	
 	#middle .menu .thumb { cursor: pointer; width: 99px; height: 79px; float: left; margin-right: 4px; margin-left:2px }
 	
 	#middle .menu .thumbimage { margin-left: 4px }
-	#middle .menu .thumbvideo { margin-left: 18px }
+	#middle .menu .thumbvideo { margin-left: 21px }
 
 	#imgSmallService01 .thumb { background: url("../img/imgSmallService01.png") no-repeat }
 	#imgSmallService02 .thumb { background: url("../img/imgSmallService02.png") no-repeat }

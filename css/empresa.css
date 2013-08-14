@@ -1,8 +1,10 @@
+.background { height: 1473px }
 
+body { background-image: url("../img/background_company.png"); background-repeat: repeat-x }
 
 #enterpriseContent { background: url(../img/enterpriseBackground.png ) no-repeat 0 0 }
 
-#middle { width: 958px; height: 1026px; margin-left: 182px; margin-top: 19px; position: relative }
+#middle { width: 958px; height: 1026px; margin-left: 199px; margin-top: 19px; position: relative }
 
 	#middle #left { 
 		height: 231px; width: 180px; float: left; padding-left: 44px; padding-top: 150px;
@@ -16,10 +18,10 @@
 		#middle .image { width: 567px; height: 392px; float: left; position: relative }
 			#middle .image .container { position: absolute }
 
-		#middle .menu { width: 88px; height: 376px; float: left; margin-left: 16px; padding-top: 16px }
+		#middle .menu { width: 88px; height: 376px; float: left; margin-left: 15px; padding-top: 16px }
 		
 		#middle .thumb { cursor: pointer; width: 77px; height: 60px; margin-bottom: 7px }
-		#middle .thumbvideos { margin-top: 47px }
+		#middle .thumbvideos { margin-top: 43px }
 
 		#imgSmallEnterprise01 .thumb { background: url("../img/imgSmallEnterprise01.png") no-repeat }
 		#imgSmallEnterprise02 .thumb { background: url("../img/imgSmallEnterprise02.png") no-repeat }
