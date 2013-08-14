@@ -1,5 +1,7 @@
 .background { height: 1455px }
 
+body { background-image: url("../img/background_security.png"); background-repeat: repeat-x }
+
 /*  servico.css  */
 
 #securityContent { background: url(../img/securityBackground.png ) no-repeat 0 0 }
