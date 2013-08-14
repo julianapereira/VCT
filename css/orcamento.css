@@ -10,9 +10,9 @@
 	 }
 
 	#middle #left { 
-		width: 323px; height: 630px; float: left; margin-left: 233px;
-		padding-top: 153px; padding-left: 56px;
-		font-family: Signika, sans-serif; letter-spacing: 4px ;font-weight: 600;font-size: 27px; color: #eaeaea
+		width: 323px; height: 630px; float: left; margin-left: 228px;
+		padding-top: 153px; padding-left: 55px;
+		font-family: Signika, sans-serif; letter-spacing: 3px ;font-weight: 600;font-size: 27px; color: #eaeaea
 	 }
 
 	#middle #right { 
@@ -53,7 +53,7 @@
 			padding-top: 6px; padding-left: 6px ; padding-right: 6px
 		}	
 
-		#middle #right .radioButtons { margin-top: 5px; height: 15px }
+		#middle #right .radioButtons { margin-top: 7px; height: 15px }
 		#middle #right .radioButtons input[type="radio"] { margin-right: 6px; opacity: 0; width: 0px; height: 0px; margin-top: 1px }
 		#middle #right .radioButtons .radio { float: left; width: 19px; height: 9px; cursor: pointer }
 		#middle #right .radioButtons .checked { background: url("../img/checked.png") no-repeat }

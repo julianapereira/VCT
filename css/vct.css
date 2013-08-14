@@ -10,7 +10,7 @@
 a { text-decoration:none }
 img { border: none }
 
-body { background-image: url("../img/background.png") }
+body { background-image: url("../img/background.png"); background-repeat: repeat-x }
 
 .background { width: 1358px; height: 1314px; position:absolute; left:-679px; margin: auto 50%  }
 

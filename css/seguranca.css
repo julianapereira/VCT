@@ -1,3 +1,5 @@
+.background { height: 1455px }
+
 /*  servico.css  */
 
 #securityContent { background: url(../img/securityBackground.png ) no-repeat 0 0 }
@@ -6,7 +8,7 @@
 /*  Middle  */
 
 	#middle { width: 1358px; height: 1028px; position: relative }
-		#middle #security { width: 492px; height: 718px; margin-left: 217px; margin-top: 20px; float: left }
+		#middle #security { width: 492px; height: 718px; margin-left: 242px; margin-top: 20px; float: left }
 			#middle #security #securityBox01 { width: 222px; height: 498px;  float: left }
 				#middle #security #security01 { width: 222px; height: 105px; padding-bottom: 16px; line-height: 22px; 
 												font-family: Signika, sans-serif; font-weight: 300; font-size: 14px; color: #a6a6a6 }
