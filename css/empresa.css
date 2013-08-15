@@ -26,10 +26,15 @@ body { background-image: url("../img/background_company.png"); background-repeat
 		#imgSmallEnterprise01 .thumb { background: url("../img/imgSmallEnterprise01.png") no-repeat }
 		#imgSmallEnterprise02 .thumb { background: url("../img/imgSmallEnterprise02.png") no-repeat }
 		#imgSmallEnterprise03 .thumb { background: url("../img/imgSmallEnterprise03.png") no-repeat }
+		#imgSmallEnterprise04 .thumb { background: url("../img/imgSmallEnterprise04.png") no-repeat }
+		#imgSmallEnterprise05 .thumb { background: url("../img/imgSmallEnterprise05.png") no-repeat }
 
 		#imgSmallEnterprise01 .selected { background: url("../img/imgSmallEnterpriseSelected01.png") no-repeat }
 		#imgSmallEnterprise02 .selected { background: url("../img/imgSmallEnterpriseSelected02.png") no-repeat }
 		#imgSmallEnterprise03 .selected { background: url("../img/imgSmallEnterpriseSelected03.png") no-repeat }
+		#imgSmallEnterprise04 .selected { background: url("../img/imgSmallEnterpriseSelected04.png") no-repeat }
+		#imgSmallEnterprise05 .selected { background: url("../img/imgSmallEnterpriseSelected05.png") no-repeat }
+
 
 	#middle #right #rightBottom { 
 		height: 414px; font-size: 14px; color: #0093c9; text-align: justify;
