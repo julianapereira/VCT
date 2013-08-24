@@ -32,8 +32,8 @@
 		#middle #right .obrigatorio { margin-top: -9px; color: #4299ae; font-size: 9px; font-family: Signika, sans-serif; font-style: italic ;font-weight: 300 }
 
 		#middle #right .container_message { 
-			position: absolute; top: 56px; left: 663px; background: url("../img/messageBox.png") no-repeat; height: 449px; width: 413px;
-			color: #4299ae; font-size: 17px; font-family: Signika, sans-serif; font-weight: 300
+			position: absolute; top: 48px; left: 668px; background: url("../img/messageBox.png") no-repeat; height: 451px; width: 415px;
+			color: #4299ae; opacity: 0.8; font-size: 17px; font-family: Signika, sans-serif; font-weight: 300; line-height: 22px; letter-spacing: 1px
 		}
 			#middle #right .closeButton { height: 27px; width: 30px; margin-left: 362px; margin-top: 20px; cursor: pointer }
 			#middle #right .containerMessage { margin-top: 142px; text-align: center }
