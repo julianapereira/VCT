@@ -13,9 +13,9 @@ var VCT = {
         * Utilizado para enviar um email.
         */
         sendMail: function(_assunto, _mensagemHTML){
-            $.post('http://vamosporpartes.com.br/SMTP/Email.php', 
+            $.post('http://vctbrasil.com.br/SMTP/Email.php', 
                 { 
-                    emaildestinatario: "raf.bueno@gmail.com",
+                    emaildestinatario: "televendas@vctbrasil.com.br,comercial@vctbrasil.com.br",
                     assunto : _assunto,
                     mensagemHTML : _mensagemHTML
                  } , 
